@@ -1,0 +1,14 @@
+# 依赖：只放了一个指向本地 profile 的 schemastery 符号链接，不能进仓库
+# 复现方式见 README「安装 → 准备依赖链接」
+node_modules/
+
+# 本地备份
+*.bak-ocgo-*
+*.bak
+
+# macOS
+.DS_Store
+
+# 编辑器
+.vscode/
+.idea/

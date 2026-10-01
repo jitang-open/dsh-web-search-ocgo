@@ -1,0 +1,19 @@
+{
+  "name": "dsh-web-search-ocgo-probe",
+  "version": "0.0.1",
+  "private": true,
+  "type": "module",
+  "description": "阶段 0 spike 探针：验证 DSH 0.1.7-rc.2 下插件依赖解析与设置页自动生成。验证完即删。",
+  "main": "index.js",
+  "exports": {
+    ".": "./index.js",
+    "./static": "./static.js",
+    "./smoke": "./smoke.js",
+    "./package.json": "./package.json"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  }
+}

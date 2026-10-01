@@ -1,0 +1,42 @@
+# NOTICE
+
+dsh-web-search-ocgo 是一个独立实现，但在设计与协议细节上参考了以下 MIT 许可项目。
+
+## 衍生关系
+
+### @deepseek-ai/dsh-web-search-deepseek（MIT，Copyright (c) 2026 DeepSeek）
+
+- 上游仓库：https://github.com/deepseek-ai/deepseek-harness
+- 包路径：`packages/web/web-search-deepseek`
+- 版本参照：`0.1.7-rc.2`
+
+本项目的以下部分沿用了它的设计与契约：
+
+- `WebSearchProvider` 的实现骨架：`id` / `available()` / `search(request, signal)`。
+- Anthropic Messages 请求形状：`{ model, max_tokens, messages, tools }`，
+  工具声明 `web_search_20250305`。
+- 「没有 `web_search_tool_result` 块时必须报错，不降级去抓正文」的设计原则。
+- `web/deepseek-search-llm-request` 会话事件名与其脱敏 payload 结构
+  （保留同名是为了让既有的会话日志核对脚本继续可用）。
+- 取消语义（`WEB_ABORTED`）、错误码命名（`WEB_PROVIDER_ERROR` /
+  `WEB_PROVIDER_CREDENTIAL_MISSING`）。
+
+**代码本身是重写的**，不是复制：本项目不 import 任何 `@deepseek-ai/dsh-*`
+运行时包（原因见 README「为什么不 import dsh 包」），错误对象按
+`HarnessError` 的形状手工构造，结果映射、重试、回退、缓存均为新增实现。
+
+### leeyoung1/dsh-web-search-opencode-go（MIT，Copyright (c) 2026 DeepSeek）
+
+- 上游仓库：https://github.com/leeyoung1/dsh-web-search-opencode-go
+- 参照版本：commit `f819383b1842790850e974a4de484276928802c1`
+
+本项目的以下**事实**来自对它的观察（不是代码复用）：
+
+- OpenCode Go / Zen 端点需要 `x-opencode-session` 与 `x-opencode-client` 头。
+- 缺失 `x-opencode-session` 时的报错原文：HTTP 400 `MissingSessionID`。
+
+## 没有使用的代码
+
+本项目没有包含 `installSettingsSection` / `settingsNamespace` 相关的任何代码 ——
+这两个 API 在 DSH `0.1.7-rc.2` 的 `@deepseek-ai/dsh-settings` 里并不存在，
+上游 fork 的「加载即崩」正源于此。

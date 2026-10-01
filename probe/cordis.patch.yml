@@ -1,0 +1,7 @@
+# 阶段 0 spike 探针的 loader 补丁层。
+- insert:
+    - id: ocgo-probe
+      name: dsh-web-search-ocgo-probe
+      config:
+        apiKeyEnv: OPENCODE_API_KEY
+        model: deepseek-v4.1-flash

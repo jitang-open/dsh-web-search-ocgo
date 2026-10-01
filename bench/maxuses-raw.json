@@ -1,0 +1,1923 @@
+{
+  "meta": {
+    "generatedAt": "2026-10-01T11:47:25.343Z",
+    "endpoint": "https://opencode.ai/zen/go/v1/messages",
+    "model": "deepseek-v4.1-flash",
+    "maxTokens": 4096,
+    "sessionUUID": "d5b0a1c2-7f31-4e88-9a04-6b2c1f0d3e57",
+    "queries": [
+      "DeepSeek Harness 0.1.7 更新内容",
+      "leeyoung1 dsh-web-search-opencode-go",
+      "dsh 插件市场 网页搜索 provider",
+      "OpenCode Go 订阅 额度 限制"
+    ],
+    "maxUses": [
+      1,
+      2,
+      3,
+      5
+    ],
+    "runs": 2,
+    "totalRequests": 32,
+    "sleepMs": 1000,
+    "note": "同一 session UUID 串行执行；cache 字段来自响应 usage。key 不落盘。"
+  },
+  "records": [
+    {
+      "maxUses": 1,
+      "query": "DeepSeek Harness 0.1.7 更新内容",
+      "run": 1,
+      "sessionUUID": "d5b0a1c2-7f31-4e88-9a04-6b2c1f0d3e57",
+      "httpStatus": 200,
+      "latencyMs": 9077,
+      "ok": true,
+      "attempts": 1,
+      "stopReason": "end_turn",
+      "resultCount": 10,
+      "rawItemCount": 10,
+      "contentNonEmptyCount": 0,
+      "contentChars": 0,
+      "citedTextCount": 0,
+      "citationsTotal": 0,
+      "textBlockCount": 1,
+      "thinkingBlockCount": 2,
+      "serverToolUseCount": 1,
+      "searchResultBlockCount": 1,
+      "malformedResultBlocks": 0,
+      "errorBlocks": [],
+      "usage": {
+        "input_tokens": 8517,
+        "output_tokens": 1822,
+        "cache_read_input_tokens": 256,
+        "cache_creation_input_tokens": 0,
+        "server_tool_use": {
+          "web_search_requests": 1
+        },
+        "raw_keys": [
+          "input_tokens",
+          "output_tokens",
+          "cache_creation_input_tokens",
+          "cache_read_input_tokens",
+          "server_tool_use"
+        ]
+      },
+      "urls": [
+        "https://github.com/deepseek-ai/deepseek-harness/releases/tag/dsh-v0.1.7-rc.1",
+        "https://github.com/cc1252/deepseek-harness-desktop/releases",
+        "https://github.com/Links2008/DeepSeek-Harness-Desktop/releases/tag/v4.4",
+        "https://news.qq.com/rain/a/20260924A0C1WT00",
+        "https://jishuzhan.net/article/2104488910889693185",
+        "https://view.inews.qq.com/k/20260924A0C0EX00?scene=wap&no-redirect=1#1",
+        "https://m.toutiao.com/article/7688749343013077567/?wid=1790222972597&upstream_biz=toutiao_pc#1",
+        "https://www.xianshe.com/article-189-1.html",
+        "https://www.ai345.info/ai-guide/deepseek-harness-v020",
+        "https://hub-assets-cache.baai.ac.cn/view/58382"
+      ],
+      "usageBody": {
+        "input_tokens": 8517,
+        "output_tokens": 1822,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 256,
+        "server_tool_use": {
+          "web_search_requests": 1
+        }
+      }
+    },
+    {
+      "maxUses": 1,
+      "query": "DeepSeek Harness 0.1.7 更新内容",
+      "run": 2,
+      "sessionUUID": "d5b0a1c2-7f31-4e88-9a04-6b2c1f0d3e57",
+      "httpStatus": 200,
+      "latencyMs": 6711,
+      "ok": true,
+      "attempts": 1,
+      "stopReason": "end_turn",
+      "resultCount": 10,
+      "rawItemCount": 10,
+      "contentNonEmptyCount": 0,
+      "contentChars": 0,
+      "citedTextCount": 0,
+      "citationsTotal": 0,
+      "textBlockCount": 1,
+      "thinkingBlockCount": 2,
+      "serverToolUseCount": 1,
+      "searchResultBlockCount": 1,
+      "malformedResultBlocks": 0,
+      "errorBlocks": [],
+      "usage": {
+        "input_tokens": 3135,
+        "output_tokens": 1383,
+        "cache_read_input_tokens": 6016,
+        "cache_creation_input_tokens": 0,
+        "server_tool_use": {
+          "web_search_requests": 1
+        },
+        "raw_keys": [
+          "input_tokens",
+          "output_tokens",
+          "cache_creation_input_tokens",
+          "cache_read_input_tokens",
+          "server_tool_use"
+        ]
+      },
+      "urls": [
+        "https://github.com/deepseek-ai/deepseek-harness/releases/tag/dsh-v0.1.7-rc.1",
+        "https://github.com/cc1252/deepseek-harness-desktop/releases",
+        "https://github.com/Links2008/DeepSeek-Harness-Desktop/releases/tag/v4.4",
+        "https://news.qq.com/rain/a/20260924A0C1WT00",
+        "https://jishuzhan.net/article/2104488910889693185",
+        "https://view.inews.qq.com/k/20260924A0C0EX00?scene=wap&no-redirect=1#1",
+        "https://m.toutiao.com/article/7688749343013077567/?wid=1790222972597&upstream_biz=toutiao_pc#1",
+        "https://blog.csdn.net/qq_36894974/article/details/166789901",
+        "https://www.xianshe.com/article-189-1.html",
+        "https://www.ai345.info/ai-guide/deepseek-harness-v020"
+      ],
+      "usageBody": {
+        "input_tokens": 3135,
+        "output_tokens": 1383,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 6016,
+        "server_tool_use": {
+          "web_search_requests": 1
+        }
+      }
+    },
+    {
+      "maxUses": 2,
+      "query": "DeepSeek Harness 0.1.7 更新内容",
+      "run": 1,
+      "sessionUUID": "d5b0a1c2-7f31-4e88-9a04-6b2c1f0d3e57",
+      "httpStatus": 200,
+      "latencyMs": 6783,
+      "ok": true,
+      "attempts": 1,
+      "stopReason": "end_turn",
+      "resultCount": 10,
+      "rawItemCount": 10,
+      "contentNonEmptyCount": 0,
+      "contentChars": 0,
+      "citedTextCount": 0,
+      "citationsTotal": 0,
+      "textBlockCount": 1,
+      "thinkingBlockCount": 2,
+      "serverToolUseCount": 1,
+      "searchResultBlockCount": 1,
+      "malformedResultBlocks": 0,
+      "errorBlocks": [],
+      "usage": {
+        "input_tokens": 8385,
+        "output_tokens": 1239,
+        "cache_read_input_tokens": 384,
+        "cache_creation_input_tokens": 0,
+        "server_tool_use": {
+          "web_search_requests": 1
+        },
+        "raw_keys": [
+          "input_tokens",
+          "output_tokens",
+          "cache_creation_input_tokens",
+          "cache_read_input_tokens",
+          "server_tool_use"
+        ]
+      },
+      "urls": [
+        "https://github.com/deepseek-ai/deepseek-harness/releases/tag/dsh-v0.1.7-rc.1",
+        "https://github.com/cc1252/deepseek-harness-desktop/releases",
+        "https://github.com/Links2008/DeepSeek-Harness-Desktop/releases/tag/v4.4",
+        "https://news.qq.com/rain/a/20260924A0C1WT00",
+        "https://jishuzhan.net/article/2104488910889693185",
+        "https://view.inews.qq.com/k/20260924A0C0EX00?scene=wap&no-redirect=1#1",
+        "https://m.toutiao.com/article/7688749343013077567/?wid=1790222972597&upstream_biz=toutiao_pc#1",
+        "https://www.xianshe.com/article-189-1.html",
+        "https://www.ai345.info/ai-guide/deepseek-harness-v020",
+        "https://hub-assets-cache.baai.ac.cn/view/58382"
+      ],
+      "usageBody": {
+        "input_tokens": 8385,
+        "output_tokens": 1239,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 384,
+        "server_tool_use": {
+          "web_search_requests": 1
+        }
+      }
+    },
+    {
+      "maxUses": 2,
+      "query": "DeepSeek Harness 0.1.7 更新内容",
+      "run": 2,
+      "sessionUUID": "d5b0a1c2-7f31-4e88-9a04-6b2c1f0d3e57",
+      "httpStatus": 200,
+      "latencyMs": 6189,
+      "ok": true,
+      "attempts": 1,
+      "stopReason": "end_turn",
+      "resultCount": 10,
+      "rawItemCount": 10,
+      "contentNonEmptyCount": 0,
+      "contentChars": 0,
+      "citedTextCount": 0,
+      "citationsTotal": 0,
+      "textBlockCount": 1,
+      "thinkingBlockCount": 2,
+      "serverToolUseCount": 1,
+      "searchResultBlockCount": 1,
+      "malformedResultBlocks": 0,
+      "errorBlocks": [],
+      "usage": {
+        "input_tokens": 325,
+        "output_tokens": 1102,
+        "cache_read_input_tokens": 8448,
+        "cache_creation_input_tokens": 0,
+        "server_tool_use": {
+          "web_search_requests": 1
+        },
+        "raw_keys": [
+          "input_tokens",
+          "output_tokens",
+          "cache_creation_input_tokens",
+          "cache_read_input_tokens",
+          "server_tool_use"
+        ]
+      },
+      "urls": [
+        "https://github.com/deepseek-ai/deepseek-harness/releases/tag/dsh-v0.1.7-rc.1",
+        "https://github.com/cc1252/deepseek-harness-desktop/releases",
+        "https://github.com/Links2008/DeepSeek-Harness-Desktop/releases/tag/v4.4",
+        "https://news.qq.com/rain/a/20260924A0C1WT00",
+        "https://jishuzhan.net/article/2104488910889693185",
+        "https://view.inews.qq.com/k/20260924A0C0EX00?scene=wap&no-redirect=1#1",
+        "https://m.toutiao.com/article/7688749343013077567/?wid=1790222972597&upstream_biz=toutiao_pc#1",
+        "https://www.xianshe.com/article-189-1.html",
+        "https://www.ai345.info/ai-guide/deepseek-harness-v020",
+        "https://hub-assets-cache.baai.ac.cn/view/58382"
+      ],
+      "usageBody": {
+        "input_tokens": 325,
+        "output_tokens": 1102,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 8448,
+        "server_tool_use": {
+          "web_search_requests": 1
+        }
+      }
+    },
+    {
+      "maxUses": 3,
+      "query": "DeepSeek Harness 0.1.7 更新内容",
+      "run": 1,
+      "sessionUUID": "d5b0a1c2-7f31-4e88-9a04-6b2c1f0d3e57",
+      "httpStatus": 200,
+      "latencyMs": 7594,
+      "ok": true,
+      "attempts": 1,
+      "stopReason": "end_turn",
+      "resultCount": 10,
+      "rawItemCount": 10,
+      "contentNonEmptyCount": 0,
+      "contentChars": 0,
+      "citedTextCount": 0,
+      "citationsTotal": 0,
+      "textBlockCount": 1,
+      "thinkingBlockCount": 2,
+      "serverToolUseCount": 1,
+      "searchResultBlockCount": 1,
+      "malformedResultBlocks": 0,
+      "errorBlocks": [],
+      "usage": {
+        "input_tokens": 7214,
+        "output_tokens": 1546,
+        "cache_read_input_tokens": 1536,
+        "cache_creation_input_tokens": 0,
+        "server_tool_use": {
+          "web_search_requests": 1
+        },
+        "raw_keys": [
+          "input_tokens",
+          "output_tokens",
+          "cache_creation_input_tokens",
+          "cache_read_input_tokens",
+          "server_tool_use"
+        ]
+      },
+      "urls": [
+        "https://github.com/deepseek-ai/deepseek-harness/releases/tag/dsh-v0.1.7-rc.1",
+        "https://github.com/Links2008/DeepSeek-Harness-Desktop/releases/tag/v4.4",
+        "https://news.qq.com/rain/a/20260924A0C1WT00",
+        "https://github.com/cc1252/deepseek-harness-desktop/releases",
+        "https://view.inews.qq.com/k/20260924A0C1WT00?scene=wap&no-redirect=1",
+        "https://view.inews.qq.com/k/20260924A0C0EX00?scene=wap&no-redirect=1#1",
+        "https://m.toutiao.com/article/7688749343013077567/?wid=1790222972597&upstream_biz=toutiao_pc#1",
+        "https://jishuzhan.net/article/2104488910889693185",
+        "https://www.sohu.com/a/1080819993_122980439?scm=10008.1479_13-1479_13-68_68.4935001-5096002-0.0-1-0-0-0.0&spm=smpc.content-abroad.fd-d.67.1790318859536ZNeSZ2a",
+        "https://www.toutiao.com/article/7688480728983568911/?wid=1790298893248"
+      ],
+      "usageBody": {
+        "input_tokens": 7214,
+        "output_tokens": 1546,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 1536,
+        "server_tool_use": {
+          "web_search_requests": 1
+        }
+      }
+    },
+    {
+      "maxUses": 3,
+      "query": "DeepSeek Harness 0.1.7 更新内容",
+      "run": 2,
+      "sessionUUID": "d5b0a1c2-7f31-4e88-9a04-6b2c1f0d3e57",
+      "httpStatus": 200,
+      "latencyMs": 6541,
+      "ok": true,
+      "attempts": 1,
+      "stopReason": "end_turn",
+      "resultCount": 10,
+      "rawItemCount": 10,
+      "contentNonEmptyCount": 0,
+      "contentChars": 0,
+      "citedTextCount": 0,
+      "citationsTotal": 0,
+      "textBlockCount": 1,
+      "thinkingBlockCount": 2,
+      "serverToolUseCount": 1,
+      "searchResultBlockCount": 1,
+      "malformedResultBlocks": 0,
+      "errorBlocks": [],
+      "usage": {
+        "input_tokens": 303,
+        "output_tokens": 1402,
+        "cache_read_input_tokens": 8447,
+        "cache_creation_input_tokens": 0,
+        "server_tool_use": {
+          "web_search_requests": 1
+        },
+        "raw_keys": [
+          "input_tokens",
+          "output_tokens",
+          "cache_creation_input_tokens",
+          "cache_read_input_tokens",
+          "server_tool_use"
+        ]
+      },
+      "urls": [
+        "https://github.com/deepseek-ai/deepseek-harness/releases/tag/dsh-v0.1.7-rc.1",
+        "https://github.com/Links2008/DeepSeek-Harness-Desktop/releases/tag/v4.4",
+        "https://news.qq.com/rain/a/20260924A0C1WT00",
+        "https://github.com/cc1252/deepseek-harness-desktop/releases",
+        "https://view.inews.qq.com/k/20260924A0C1WT00?scene=wap&no-redirect=1",
+        "https://view.inews.qq.com/k/20260924A0C0EX00?scene=wap&no-redirect=1#1",
+        "https://m.toutiao.com/article/7688749343013077567/?wid=1790222972597&upstream_biz=toutiao_pc#1",
+        "https://jishuzhan.net/article/2104488910889693185",
+        "https://www.sohu.com/a/1080819993_122980439?scm=10008.1479_13-1479_13-68_68.4935001-5096002-0.0-1-0-0-0.0&spm=smpc.content-abroad.fd-d.67.1790318859536ZNeSZ2a",
+        "https://www.toutiao.com/article/7688480728983568911/?wid=1790298893248"
+      ],
+      "usageBody": {
+        "input_tokens": 303,
+        "output_tokens": 1402,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 8447,
+        "server_tool_use": {
+          "web_search_requests": 1
+        }
+      }
+    },
+    {
+      "maxUses": 5,
+      "query": "DeepSeek Harness 0.1.7 更新内容",
+      "run": 1,
+      "sessionUUID": "d5b0a1c2-7f31-4e88-9a04-6b2c1f0d3e57",
+      "httpStatus": 200,
+      "latencyMs": 6903,
+      "ok": true,
+      "attempts": 1,
+      "stopReason": "end_turn",
+      "resultCount": 10,
+      "rawItemCount": 10,
+      "contentNonEmptyCount": 0,
+      "contentChars": 0,
+      "citedTextCount": 0,
+      "citationsTotal": 0,
+      "textBlockCount": 1,
+      "thinkingBlockCount": 2,
+      "serverToolUseCount": 1,
+      "searchResultBlockCount": 1,
+      "malformedResultBlocks": 0,
+      "errorBlocks": [],
+      "usage": {
+        "input_tokens": 8764,
+        "output_tokens": 1342,
+        "cache_read_input_tokens": 384,
+        "cache_creation_input_tokens": 0,
+        "server_tool_use": {
+          "web_search_requests": 1
+        },
+        "raw_keys": [
+          "input_tokens",
+          "output_tokens",
+          "cache_creation_input_tokens",
+          "cache_read_input_tokens",
+          "server_tool_use"
+        ]
+      },
+      "urls": [
+        "https://github.com/deepseek-ai/deepseek-harness/releases/tag/dsh-v0.1.7-rc.1",
+        "https://github.com/cc1252/deepseek-harness-desktop/releases",
+        "https://github.com/Links2008/DeepSeek-Harness-Desktop/releases/tag/v4.4",
+        "https://news.qq.com/rain/a/20260924A0C1WT00",
+        "https://jishuzhan.net/article/2104488910889693185",
+        "https://view.inews.qq.com/k/20260924A0C0EX00?scene=wap&no-redirect=1#1",
+        "https://m.toutiao.com/article/7688749343013077567/?wid=1790222972597&upstream_biz=toutiao_pc#1",
+        "https://blog.csdn.net/qq_36894974/article/details/166789901",
+        "https://www.xianshe.com/article-189-1.html",
+        "https://www.ai345.info/ai-guide/deepseek-harness-v020"
+      ],
+      "usageBody": {
+        "input_tokens": 8764,
+        "output_tokens": 1342,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 384,
+        "server_tool_use": {
+          "web_search_requests": 1
+        }
+      }
+    },
+    {
+      "maxUses": 5,
+      "query": "DeepSeek Harness 0.1.7 更新内容",
+      "run": 2,
+      "sessionUUID": "d5b0a1c2-7f31-4e88-9a04-6b2c1f0d3e57",
+      "httpStatus": 200,
+      "latencyMs": 6228,
+      "ok": true,
+      "attempts": 1,
+      "stopReason": "end_turn",
+      "resultCount": 10,
+      "rawItemCount": 10,
+      "contentNonEmptyCount": 0,
+      "contentChars": 0,
+      "citedTextCount": 0,
+      "citationsTotal": 0,
+      "textBlockCount": 2,
+      "thinkingBlockCount": 2,
+      "serverToolUseCount": 1,
+      "searchResultBlockCount": 1,
+      "malformedResultBlocks": 0,
+      "errorBlocks": [],
+      "usage": {
+        "input_tokens": 7886,
+        "output_tokens": 1134,
+        "cache_read_input_tokens": 512,
+        "cache_creation_input_tokens": 0,
+        "server_tool_use": {
+          "web_search_requests": 1
+        },
+        "raw_keys": [
+          "input_tokens",
+          "output_tokens",
+          "cache_creation_input_tokens",
+          "cache_read_input_tokens",
+          "server_tool_use"
+        ]
+      },
+      "urls": [
+        "https://github.com/deepseek-ai/deepseek-harness/releases/tag/dsh-v0.1.7-rc.1",
+        "https://github.com/cc1252/deepseek-harness-desktop/releases",
+        "https://github.com/Links2008/DeepSeek-Harness-Desktop/releases/tag/v4.4",
+        "https://news.qq.com/rain/a/20260924A0C1WT00",
+        "https://jishuzhan.net/article/2104488910889693185",
+        "https://baijiahao.baidu.com/s?id=1877270502349563141",
+        "https://view.inews.qq.com/k/20260924A0C0EX00?scene=wap&no-redirect=1#1",
+        "https://m.toutiao.com/article/7688749343013077567/?wid=1790222972597&upstream_biz=toutiao_pc#1",
+        "https://blog.csdn.net/qq_36894974/article/details/166789901",
+        "https://www.xianshe.com/article-189-1.html"
+      ],
+      "usageBody": {
+        "input_tokens": 7886,
+        "output_tokens": 1134,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 512,
+        "server_tool_use": {
+          "web_search_requests": 1
+        }
+      }
+    },
+    {
+      "maxUses": 1,
+      "query": "leeyoung1 dsh-web-search-opencode-go",
+      "run": 1,
+      "sessionUUID": "d5b0a1c2-7f31-4e88-9a04-6b2c1f0d3e57",
+      "httpStatus": 200,
+      "latencyMs": 5557,
+      "ok": true,
+      "attempts": 1,
+      "stopReason": "end_turn",
+      "resultCount": 7,
+      "rawItemCount": 7,
+      "contentNonEmptyCount": 0,
+      "contentChars": 0,
+      "citedTextCount": 0,
+      "citationsTotal": 0,
+      "textBlockCount": 1,
+      "thinkingBlockCount": 2,
+      "serverToolUseCount": 1,
+      "searchResultBlockCount": 1,
+      "malformedResultBlocks": 0,
+      "errorBlocks": [],
+      "usage": {
+        "input_tokens": 6000,
+        "output_tokens": 932,
+        "cache_read_input_tokens": 384,
+        "cache_creation_input_tokens": 0,
+        "server_tool_use": {
+          "web_search_requests": 1
+        },
+        "raw_keys": [
+          "input_tokens",
+          "output_tokens",
+          "cache_creation_input_tokens",
+          "cache_read_input_tokens",
+          "server_tool_use"
+        ]
+      },
+      "urls": [
+        "https://github.com/leeyoung1/dsh-web-search-opencode-go#1",
+        "https://dshbase.com/plugins/dsh-web-search-opencode/",
+        "https://dshbase.com/zh/plugins/dsh-web-search-opencode/",
+        "https://deepseekplugin.org/plugins/fanxing-0710-dsh-web-search-opencode",
+        "https://linux.do/t/topic/2752166/12",
+        "https://linux.do/t/topic/2755287/10",
+        "https://github.com/DDDMUC/dsh-free-search#1#2"
+      ],
+      "usageBody": {
+        "input_tokens": 6000,
+        "output_tokens": 932,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 384,
+        "server_tool_use": {
+          "web_search_requests": 1
+        }
+      }
+    },
+    {
+      "maxUses": 1,
+      "query": "leeyoung1 dsh-web-search-opencode-go",
+      "run": 2,
+      "sessionUUID": "d5b0a1c2-7f31-4e88-9a04-6b2c1f0d3e57",
+      "httpStatus": 200,
+      "latencyMs": 5371,
+      "ok": true,
+      "attempts": 1,
+      "stopReason": "end_turn",
+      "resultCount": 7,
+      "rawItemCount": 7,
+      "contentNonEmptyCount": 0,
+      "contentChars": 0,
+      "citedTextCount": 0,
+      "citationsTotal": 0,
+      "textBlockCount": 1,
+      "thinkingBlockCount": 2,
+      "serverToolUseCount": 1,
+      "searchResultBlockCount": 1,
+      "malformedResultBlocks": 0,
+      "errorBlocks": [],
+      "usage": {
+        "input_tokens": 368,
+        "output_tokens": 892,
+        "cache_read_input_tokens": 6016,
+        "cache_creation_input_tokens": 0,
+        "server_tool_use": {
+          "web_search_requests": 1
+        },
+        "raw_keys": [
+          "input_tokens",
+          "output_tokens",
+          "cache_creation_input_tokens",
+          "cache_read_input_tokens",
+          "server_tool_use"
+        ]
+      },
+      "urls": [
+        "https://github.com/leeyoung1/dsh-web-search-opencode-go#1",
+        "https://dshbase.com/plugins/dsh-web-search-opencode/",
+        "https://dshbase.com/zh/plugins/dsh-web-search-opencode/",
+        "https://deepseekplugin.org/plugins/fanxing-0710-dsh-web-search-opencode",
+        "https://linux.do/t/topic/2752166/12",
+        "https://linux.do/t/topic/2755287/10",
+        "https://github.com/DDDMUC/dsh-free-search#1#2"
+      ],
+      "usageBody": {
+        "input_tokens": 368,
+        "output_tokens": 892,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 6016,
+        "server_tool_use": {
+          "web_search_requests": 1
+        }
+      }
+    },
+    {
+      "maxUses": 2,
+      "query": "leeyoung1 dsh-web-search-opencode-go",
+      "run": 1,
+      "sessionUUID": "d5b0a1c2-7f31-4e88-9a04-6b2c1f0d3e57",
+      "httpStatus": 200,
+      "latencyMs": 6153,
+      "ok": true,
+      "attempts": 1,
+      "stopReason": "end_turn",
+      "resultCount": 7,
+      "rawItemCount": 7,
+      "contentNonEmptyCount": 0,
+      "contentChars": 0,
+      "citedTextCount": 0,
+      "citationsTotal": 0,
+      "textBlockCount": 1,
+      "thinkingBlockCount": 1,
+      "serverToolUseCount": 1,
+      "searchResultBlockCount": 1,
+      "malformedResultBlocks": 0,
+      "errorBlocks": [],
+      "usage": {
+        "input_tokens": 368,
+        "output_tokens": 1113,
+        "cache_read_input_tokens": 6016,
+        "cache_creation_input_tokens": 0,
+        "server_tool_use": {
+          "web_search_requests": 1
+        },
+        "raw_keys": [
+          "input_tokens",
+          "output_tokens",
+          "cache_creation_input_tokens",
+          "cache_read_input_tokens",
+          "server_tool_use"
+        ]
+      },
+      "urls": [
+        "https://github.com/leeyoung1/dsh-web-search-opencode-go#1",
+        "https://dshbase.com/plugins/dsh-web-search-opencode/",
+        "https://dshbase.com/zh/plugins/dsh-web-search-opencode/",
+        "https://deepseekplugin.org/plugins/fanxing-0710-dsh-web-search-opencode",
+        "https://linux.do/t/topic/2752166/12",
+        "https://linux.do/t/topic/2755287/10",
+        "https://github.com/DDDMUC/dsh-free-search#1#2"
+      ],
+      "usageBody": {
+        "input_tokens": 368,
+        "output_tokens": 1113,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 6016,
+        "server_tool_use": {
+          "web_search_requests": 1
+        }
+      }
+    },
+    {
+      "maxUses": 2,
+      "query": "leeyoung1 dsh-web-search-opencode-go",
+      "run": 2,
+      "sessionUUID": "d5b0a1c2-7f31-4e88-9a04-6b2c1f0d3e57",
+      "httpStatus": 200,
+      "latencyMs": 5499,
+      "ok": true,
+      "attempts": 1,
+      "stopReason": "end_turn",
+      "resultCount": 7,
+      "rawItemCount": 7,
+      "contentNonEmptyCount": 0,
+      "contentChars": 0,
+      "citedTextCount": 0,
+      "citationsTotal": 0,
+      "textBlockCount": 1,
+      "thinkingBlockCount": 2,
+      "serverToolUseCount": 1,
+      "searchResultBlockCount": 1,
+      "malformedResultBlocks": 0,
+      "errorBlocks": [],
+      "usage": {
+        "input_tokens": 368,
+        "output_tokens": 981,
+        "cache_read_input_tokens": 6016,
+        "cache_creation_input_tokens": 0,
+        "server_tool_use": {
+          "web_search_requests": 1
+        },
+        "raw_keys": [
+          "input_tokens",
+          "output_tokens",
+          "cache_creation_input_tokens",
+          "cache_read_input_tokens",
+          "server_tool_use"
+        ]
+      },
+      "urls": [
+        "https://github.com/leeyoung1/dsh-web-search-opencode-go#1",
+        "https://dshbase.com/plugins/dsh-web-search-opencode/",
+        "https://dshbase.com/zh/plugins/dsh-web-search-opencode/",
+        "https://deepseekplugin.org/plugins/fanxing-0710-dsh-web-search-opencode",
+        "https://linux.do/t/topic/2752166/12",
+        "https://linux.do/t/topic/2755287/10",
+        "https://github.com/DDDMUC/dsh-free-search#1#2"
+      ],
+      "usageBody": {
+        "input_tokens": 368,
+        "output_tokens": 981,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 6016,
+        "server_tool_use": {
+          "web_search_requests": 1
+        }
+      }
+    },
+    {
+      "maxUses": 3,
+      "query": "leeyoung1 dsh-web-search-opencode-go",
+      "run": 1,
+      "sessionUUID": "d5b0a1c2-7f31-4e88-9a04-6b2c1f0d3e57",
+      "httpStatus": 200,
+      "latencyMs": 5405,
+      "ok": true,
+      "attempts": 1,
+      "stopReason": "end_turn",
+      "resultCount": 7,
+      "rawItemCount": 7,
+      "contentNonEmptyCount": 0,
+      "contentChars": 0,
+      "citedTextCount": 0,
+      "citationsTotal": 0,
+      "textBlockCount": 1,
+      "thinkingBlockCount": 2,
+      "serverToolUseCount": 1,
+      "searchResultBlockCount": 1,
+      "malformedResultBlocks": 0,
+      "errorBlocks": [],
+      "usage": {
+        "input_tokens": 368,
+        "output_tokens": 893,
+        "cache_read_input_tokens": 6016,
+        "cache_creation_input_tokens": 0,
+        "server_tool_use": {
+          "web_search_requests": 1
+        },
+        "raw_keys": [
+          "input_tokens",
+          "output_tokens",
+          "cache_creation_input_tokens",
+          "cache_read_input_tokens",
+          "server_tool_use"
+        ]
+      },
+      "urls": [
+        "https://github.com/leeyoung1/dsh-web-search-opencode-go#1",
+        "https://dshbase.com/plugins/dsh-web-search-opencode/",
+        "https://dshbase.com/zh/plugins/dsh-web-search-opencode/",
+        "https://deepseekplugin.org/plugins/fanxing-0710-dsh-web-search-opencode",
+        "https://linux.do/t/topic/2752166/12",
+        "https://linux.do/t/topic/2755287/10",
+        "https://github.com/DDDMUC/dsh-free-search#1#2"
+      ],
+      "usageBody": {
+        "input_tokens": 368,
+        "output_tokens": 893,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 6016,
+        "server_tool_use": {
+          "web_search_requests": 1
+        }
+      }
+    },
+    {
+      "maxUses": 3,
+      "query": "leeyoung1 dsh-web-search-opencode-go",
+      "run": 2,
+      "sessionUUID": "d5b0a1c2-7f31-4e88-9a04-6b2c1f0d3e57",
+      "httpStatus": 200,
+      "latencyMs": 5615,
+      "ok": true,
+      "attempts": 1,
+      "stopReason": "end_turn",
+      "resultCount": 7,
+      "rawItemCount": 7,
+      "contentNonEmptyCount": 0,
+      "contentChars": 0,
+      "citedTextCount": 0,
+      "citationsTotal": 0,
+      "textBlockCount": 1,
+      "thinkingBlockCount": 2,
+      "serverToolUseCount": 1,
+      "searchResultBlockCount": 1,
+      "malformedResultBlocks": 0,
+      "errorBlocks": [],
+      "usage": {
+        "input_tokens": 368,
+        "output_tokens": 929,
+        "cache_read_input_tokens": 6016,
+        "cache_creation_input_tokens": 0,
+        "server_tool_use": {
+          "web_search_requests": 1
+        },
+        "raw_keys": [
+          "input_tokens",
+          "output_tokens",
+          "cache_creation_input_tokens",
+          "cache_read_input_tokens",
+          "server_tool_use"
+        ]
+      },
+      "urls": [
+        "https://github.com/leeyoung1/dsh-web-search-opencode-go#1",
+        "https://dshbase.com/plugins/dsh-web-search-opencode/",
+        "https://dshbase.com/zh/plugins/dsh-web-search-opencode/",
+        "https://deepseekplugin.org/plugins/fanxing-0710-dsh-web-search-opencode",
+        "https://linux.do/t/topic/2752166/12",
+        "https://linux.do/t/topic/2755287/10",
+        "https://github.com/DDDMUC/dsh-free-search#1#2"
+      ],
+      "usageBody": {
+        "input_tokens": 368,
+        "output_tokens": 929,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 6016,
+        "server_tool_use": {
+          "web_search_requests": 1
+        }
+      }
+    },
+    {
+      "maxUses": 5,
+      "query": "leeyoung1 dsh-web-search-opencode-go",
+      "run": 1,
+      "sessionUUID": "d5b0a1c2-7f31-4e88-9a04-6b2c1f0d3e57",
+      "httpStatus": 200,
+      "latencyMs": 5744,
+      "ok": true,
+      "attempts": 1,
+      "stopReason": "end_turn",
+      "resultCount": 7,
+      "rawItemCount": 7,
+      "contentNonEmptyCount": 0,
+      "contentChars": 0,
+      "citedTextCount": 0,
+      "citationsTotal": 0,
+      "textBlockCount": 1,
+      "thinkingBlockCount": 2,
+      "serverToolUseCount": 1,
+      "searchResultBlockCount": 1,
+      "malformedResultBlocks": 0,
+      "errorBlocks": [],
+      "usage": {
+        "input_tokens": 368,
+        "output_tokens": 945,
+        "cache_read_input_tokens": 6016,
+        "cache_creation_input_tokens": 0,
+        "server_tool_use": {
+          "web_search_requests": 1
+        },
+        "raw_keys": [
+          "input_tokens",
+          "output_tokens",
+          "cache_creation_input_tokens",
+          "cache_read_input_tokens",
+          "server_tool_use"
+        ]
+      },
+      "urls": [
+        "https://github.com/leeyoung1/dsh-web-search-opencode-go#1",
+        "https://dshbase.com/plugins/dsh-web-search-opencode/",
+        "https://dshbase.com/zh/plugins/dsh-web-search-opencode/",
+        "https://deepseekplugin.org/plugins/fanxing-0710-dsh-web-search-opencode",
+        "https://linux.do/t/topic/2752166/12",
+        "https://linux.do/t/topic/2755287/10",
+        "https://github.com/DDDMUC/dsh-free-search#1#2"
+      ],
+      "usageBody": {
+        "input_tokens": 368,
+        "output_tokens": 945,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 6016,
+        "server_tool_use": {
+          "web_search_requests": 1
+        }
+      }
+    },
+    {
+      "maxUses": 5,
+      "query": "leeyoung1 dsh-web-search-opencode-go",
+      "run": 2,
+      "sessionUUID": "d5b0a1c2-7f31-4e88-9a04-6b2c1f0d3e57",
+      "httpStatus": 200,
+      "latencyMs": 5457,
+      "ok": true,
+      "attempts": 1,
+      "stopReason": "end_turn",
+      "resultCount": 7,
+      "rawItemCount": 7,
+      "contentNonEmptyCount": 0,
+      "contentChars": 0,
+      "citedTextCount": 0,
+      "citationsTotal": 0,
+      "textBlockCount": 2,
+      "thinkingBlockCount": 2,
+      "serverToolUseCount": 1,
+      "searchResultBlockCount": 1,
+      "malformedResultBlocks": 0,
+      "errorBlocks": [],
+      "usage": {
+        "input_tokens": 5978,
+        "output_tokens": 873,
+        "cache_read_input_tokens": 384,
+        "cache_creation_input_tokens": 0,
+        "server_tool_use": {
+          "web_search_requests": 1
+        },
+        "raw_keys": [
+          "input_tokens",
+          "output_tokens",
+          "cache_creation_input_tokens",
+          "cache_read_input_tokens",
+          "server_tool_use"
+        ]
+      },
+      "urls": [
+        "https://github.com/leeyoung1/dsh-web-search-opencode-go#1",
+        "https://dshbase.com/plugins/dsh-web-search-opencode/",
+        "https://dshbase.com/zh/plugins/dsh-web-search-opencode/",
+        "https://deepseekplugin.org/plugins/fanxing-0710-dsh-web-search-opencode",
+        "https://linux.do/t/topic/2752166/12",
+        "https://linux.do/t/topic/2755287/10",
+        "https://github.com/DDDMUC/dsh-free-search#1#2"
+      ],
+      "usageBody": {
+        "input_tokens": 5978,
+        "output_tokens": 873,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 384,
+        "server_tool_use": {
+          "web_search_requests": 1
+        }
+      }
+    },
+    {
+      "maxUses": 1,
+      "query": "dsh 插件市场 网页搜索 provider",
+      "run": 1,
+      "sessionUUID": "d5b0a1c2-7f31-4e88-9a04-6b2c1f0d3e57",
+      "httpStatus": 200,
+      "latencyMs": 5934,
+      "ok": true,
+      "attempts": 1,
+      "stopReason": "end_turn",
+      "resultCount": 10,
+      "rawItemCount": 10,
+      "contentNonEmptyCount": 0,
+      "contentChars": 0,
+      "citedTextCount": 0,
+      "citationsTotal": 0,
+      "textBlockCount": 1,
+      "thinkingBlockCount": 2,
+      "serverToolUseCount": 1,
+      "searchResultBlockCount": 1,
+      "malformedResultBlocks": 0,
+      "errorBlocks": [],
+      "usage": {
+        "input_tokens": 10361,
+        "output_tokens": 870,
+        "cache_read_input_tokens": 384,
+        "cache_creation_input_tokens": 0,
+        "server_tool_use": {
+          "web_search_requests": 1
+        },
+        "raw_keys": [
+          "input_tokens",
+          "output_tokens",
+          "cache_creation_input_tokens",
+          "cache_read_input_tokens",
+          "server_tool_use"
+        ]
+      },
+      "urls": [
+        "https://github.com/wakeup595626-cmyk/dsh-plugin-websearch-tavily",
+        "https://github.com/Soulize/dsh-free-search",
+        "https://socket.dev/npm/package/dsh-search-tavily#1",
+        "https://www.npmjs.com/package/dsh-web-search-thirdparty#1",
+        "https://dshbase.com/zh/plugins/dsh-tavily-search/",
+        "https://www.npmjs.com/package/@yugasun/dsh-web-search#1",
+        "https://socket.dev/npm/package/dsh-search-router#1",
+        "https://www.dshplugin.store/plugin/zmh2000829/dsh-web-search-multi",
+        "https://dshbase.com/plugins/dsh-search-mcp/",
+        "https://dshbase.com/zh/plugins/dsh-tavily-search-provider/"
+      ],
+      "usageBody": {
+        "input_tokens": 10361,
+        "output_tokens": 870,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 384,
+        "server_tool_use": {
+          "web_search_requests": 1
+        }
+      }
+    },
+    {
+      "maxUses": 1,
+      "query": "dsh 插件市场 网页搜索 provider",
+      "run": 2,
+      "sessionUUID": "d5b0a1c2-7f31-4e88-9a04-6b2c1f0d3e57",
+      "httpStatus": 200,
+      "latencyMs": 12650,
+      "ok": true,
+      "attempts": 1,
+      "stopReason": "end_turn",
+      "resultCount": 10,
+      "rawItemCount": 10,
+      "contentNonEmptyCount": 0,
+      "contentChars": 0,
+      "citedTextCount": 0,
+      "citationsTotal": 0,
+      "textBlockCount": 1,
+      "thinkingBlockCount": 2,
+      "serverToolUseCount": 1,
+      "searchResultBlockCount": 1,
+      "malformedResultBlocks": 0,
+      "errorBlocks": [],
+      "usage": {
+        "input_tokens": 10368,
+        "output_tokens": 1524,
+        "cache_read_input_tokens": 384,
+        "cache_creation_input_tokens": 0,
+        "server_tool_use": {
+          "web_search_requests": 1
+        },
+        "raw_keys": [
+          "input_tokens",
+          "output_tokens",
+          "cache_creation_input_tokens",
+          "cache_read_input_tokens",
+          "server_tool_use"
+        ]
+      },
+      "urls": [
+        "https://github.com/wakeup595626-cmyk/dsh-plugin-websearch-tavily",
+        "https://github.com/Soulize/dsh-free-search",
+        "https://socket.dev/npm/package/dsh-search-tavily#1",
+        "https://www.npmjs.com/package/dsh-web-search-thirdparty#1",
+        "https://dshbase.com/zh/plugins/dsh-tavily-search/",
+        "https://www.npmjs.com/package/@yugasun/dsh-web-search#1",
+        "https://socket.dev/npm/package/dsh-search-router#1",
+        "https://www.dshplugin.store/plugin/zmh2000829/dsh-web-search-multi",
+        "https://dshbase.com/plugins/dsh-search-mcp/",
+        "https://dshbase.com/zh/plugins/dsh-tavily-search-provider/"
+      ],
+      "usageBody": {
+        "input_tokens": 10368,
+        "output_tokens": 1524,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 384,
+        "server_tool_use": {
+          "web_search_requests": 1
+        }
+      }
+    },
+    {
+      "maxUses": 2,
+      "query": "dsh 插件市场 网页搜索 provider",
+      "run": 1,
+      "sessionUUID": "d5b0a1c2-7f31-4e88-9a04-6b2c1f0d3e57",
+      "httpStatus": 200,
+      "latencyMs": 8885,
+      "ok": true,
+      "attempts": 1,
+      "stopReason": "end_turn",
+      "resultCount": 10,
+      "rawItemCount": 10,
+      "contentNonEmptyCount": 0,
+      "contentChars": 0,
+      "citedTextCount": 0,
+      "citationsTotal": 0,
+      "textBlockCount": 1,
+      "thinkingBlockCount": 2,
+      "serverToolUseCount": 1,
+      "searchResultBlockCount": 1,
+      "malformedResultBlocks": 0,
+      "errorBlocks": [],
+      "usage": {
+        "input_tokens": 2410,
+        "output_tokens": 1595,
+        "cache_read_input_tokens": 9600,
+        "cache_creation_input_tokens": 0,
+        "server_tool_use": {
+          "web_search_requests": 1
+        },
+        "raw_keys": [
+          "input_tokens",
+          "output_tokens",
+          "cache_creation_input_tokens",
+          "cache_read_input_tokens",
+          "server_tool_use"
+        ]
+      },
+      "urls": [
+        "https://github.com/wakeup595626-cmyk/dsh-plugin-websearch-tavily",
+        "https://github.com/Soulize/dsh-free-search",
+        "https://socket.dev/npm/package/dsh-search-tavily#1",
+        "https://www.npmjs.com/package/dsh-web-search-thirdparty#1",
+        "https://dshbase.com/zh/plugins/dsh-tavily-search/",
+        "https://www.npmjs.com/package/@yugasun/dsh-web-search#1",
+        "https://socket.dev/npm/package/dsh-search-router#1",
+        "https://www.dshplugin.store/plugin/zmh2000829/dsh-web-search-multi",
+        "https://dshbase.com/plugins/dsh-search-mcp/",
+        "https://dshbase.com/zh/plugins/dsh-tavily-search-provider/"
+      ],
+      "usageBody": {
+        "input_tokens": 2410,
+        "output_tokens": 1595,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 9600,
+        "server_tool_use": {
+          "web_search_requests": 1
+        }
+      }
+    },
+    {
+      "maxUses": 2,
+      "query": "dsh 插件市场 网页搜索 provider",
+      "run": 2,
+      "sessionUUID": "d5b0a1c2-7f31-4e88-9a04-6b2c1f0d3e57",
+      "httpStatus": 200,
+      "latencyMs": 6637,
+      "ok": true,
+      "attempts": 1,
+      "stopReason": "end_turn",
+      "resultCount": 10,
+      "rawItemCount": 10,
+      "contentNonEmptyCount": 0,
+      "contentChars": 0,
+      "citedTextCount": 0,
+      "citationsTotal": 0,
+      "textBlockCount": 1,
+      "thinkingBlockCount": 2,
+      "serverToolUseCount": 1,
+      "searchResultBlockCount": 1,
+      "malformedResultBlocks": 0,
+      "errorBlocks": [],
+      "usage": {
+        "input_tokens": 11624,
+        "output_tokens": 1084,
+        "cache_read_input_tokens": 384,
+        "cache_creation_input_tokens": 0,
+        "server_tool_use": {
+          "web_search_requests": 1
+        },
+        "raw_keys": [
+          "input_tokens",
+          "output_tokens",
+          "cache_creation_input_tokens",
+          "cache_read_input_tokens",
+          "server_tool_use"
+        ]
+      },
+      "urls": [
+        "https://github.com/wakeup595626-cmyk/dsh-plugin-websearch-tavily",
+        "https://github.com/Soulize/dsh-free-search",
+        "https://socket.dev/npm/package/dsh-search-tavily#1",
+        "https://www.npmjs.com/package/dsh-web-search-thirdparty#1",
+        "https://dshbase.com/zh/plugins/dsh-tavily-search/",
+        "https://www.npmjs.com/package/@yugasun/dsh-web-search#1",
+        "https://socket.dev/npm/package/dsh-search-router#1",
+        "https://www.dshplugin.store/plugin/zmh2000829/dsh-web-search-multi",
+        "https://dshbase.com/plugins/dsh-search-mcp/",
+        "https://dshbase.com/zh/plugins/dsh-tavily-search-provider/"
+      ],
+      "usageBody": {
+        "input_tokens": 11624,
+        "output_tokens": 1084,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 384,
+        "server_tool_use": {
+          "web_search_requests": 1
+        }
+      }
+    },
+    {
+      "maxUses": 3,
+      "query": "dsh 插件市场 网页搜索 provider",
+      "run": 1,
+      "sessionUUID": "d5b0a1c2-7f31-4e88-9a04-6b2c1f0d3e57",
+      "httpStatus": 200,
+      "latencyMs": 6926,
+      "ok": true,
+      "attempts": 1,
+      "stopReason": "end_turn",
+      "resultCount": 10,
+      "rawItemCount": 10,
+      "contentNonEmptyCount": 0,
+      "contentChars": 0,
+      "citedTextCount": 0,
+      "citationsTotal": 0,
+      "textBlockCount": 1,
+      "thinkingBlockCount": 2,
+      "serverToolUseCount": 1,
+      "searchResultBlockCount": 1,
+      "malformedResultBlocks": 0,
+      "errorBlocks": [],
+      "usage": {
+        "input_tokens": 384,
+        "output_tokens": 1223,
+        "cache_read_input_tokens": 10368,
+        "cache_creation_input_tokens": 0,
+        "server_tool_use": {
+          "web_search_requests": 1
+        },
+        "raw_keys": [
+          "input_tokens",
+          "output_tokens",
+          "cache_creation_input_tokens",
+          "cache_read_input_tokens",
+          "server_tool_use"
+        ]
+      },
+      "urls": [
+        "https://github.com/wakeup595626-cmyk/dsh-plugin-websearch-tavily",
+        "https://github.com/Soulize/dsh-free-search",
+        "https://socket.dev/npm/package/dsh-search-tavily#1",
+        "https://www.npmjs.com/package/dsh-web-search-thirdparty#1",
+        "https://dshbase.com/zh/plugins/dsh-tavily-search/",
+        "https://www.npmjs.com/package/@yugasun/dsh-web-search#1",
+        "https://socket.dev/npm/package/dsh-search-router#1",
+        "https://www.dshplugin.store/plugin/zmh2000829/dsh-web-search-multi",
+        "https://dshbase.com/plugins/dsh-search-mcp/",
+        "https://dshbase.com/zh/plugins/dsh-tavily-search-provider/"
+      ],
+      "usageBody": {
+        "input_tokens": 384,
+        "output_tokens": 1223,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 10368,
+        "server_tool_use": {
+          "web_search_requests": 1
+        }
+      }
+    },
+    {
+      "maxUses": 3,
+      "query": "dsh 插件市场 网页搜索 provider",
+      "run": 2,
+      "sessionUUID": "d5b0a1c2-7f31-4e88-9a04-6b2c1f0d3e57",
+      "httpStatus": 200,
+      "latencyMs": 6556,
+      "ok": true,
+      "attempts": 1,
+      "stopReason": "end_turn",
+      "resultCount": 10,
+      "rawItemCount": 10,
+      "contentNonEmptyCount": 0,
+      "contentChars": 0,
+      "citedTextCount": 0,
+      "citationsTotal": 0,
+      "textBlockCount": 1,
+      "thinkingBlockCount": 2,
+      "serverToolUseCount": 1,
+      "searchResultBlockCount": 1,
+      "malformedResultBlocks": 0,
+      "errorBlocks": [],
+      "usage": {
+        "input_tokens": 5517,
+        "output_tokens": 1185,
+        "cache_read_input_tokens": 8192,
+        "cache_creation_input_tokens": 0,
+        "server_tool_use": {
+          "web_search_requests": 1
+        },
+        "raw_keys": [
+          "input_tokens",
+          "output_tokens",
+          "cache_creation_input_tokens",
+          "cache_read_input_tokens",
+          "server_tool_use"
+        ]
+      },
+      "urls": [
+        "https://github.com/wakeup595626-cmyk/dsh-plugin-websearch-tavily",
+        "https://github.com/Soulize/dsh-free-search",
+        "https://socket.dev/npm/package/dsh-search-tavily#1",
+        "https://www.npmjs.com/package/dsh-web-search-thirdparty#1",
+        "https://dshbase.com/zh/plugins/dsh-tavily-search/",
+        "https://www.npmjs.com/package/@yugasun/dsh-web-search#1",
+        "https://socket.dev/npm/package/dsh-search-router#1",
+        "https://www.dshplugin.store/plugin/zmh2000829/dsh-web-search-multi",
+        "https://dshbase.com/plugins/dsh-search-mcp/",
+        "https://dshbase.com/zh/plugins/dsh-tavily-search-provider/"
+      ],
+      "usageBody": {
+        "input_tokens": 5517,
+        "output_tokens": 1185,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 8192,
+        "server_tool_use": {
+          "web_search_requests": 1
+        }
+      }
+    },
+    {
+      "maxUses": 5,
+      "query": "dsh 插件市场 网页搜索 provider",
+      "run": 1,
+      "sessionUUID": "d5b0a1c2-7f31-4e88-9a04-6b2c1f0d3e57",
+      "httpStatus": 200,
+      "latencyMs": 5710,
+      "ok": true,
+      "attempts": 1,
+      "stopReason": "end_turn",
+      "resultCount": 10,
+      "rawItemCount": 10,
+      "contentNonEmptyCount": 0,
+      "contentChars": 0,
+      "citedTextCount": 0,
+      "citationsTotal": 0,
+      "textBlockCount": 1,
+      "thinkingBlockCount": 2,
+      "serverToolUseCount": 1,
+      "searchResultBlockCount": 1,
+      "malformedResultBlocks": 0,
+      "errorBlocks": [],
+      "usage": {
+        "input_tokens": 384,
+        "output_tokens": 990,
+        "cache_read_input_tokens": 10368,
+        "cache_creation_input_tokens": 0,
+        "server_tool_use": {
+          "web_search_requests": 1
+        },
+        "raw_keys": [
+          "input_tokens",
+          "output_tokens",
+          "cache_creation_input_tokens",
+          "cache_read_input_tokens",
+          "server_tool_use"
+        ]
+      },
+      "urls": [
+        "https://github.com/wakeup595626-cmyk/dsh-plugin-websearch-tavily",
+        "https://github.com/Soulize/dsh-free-search",
+        "https://socket.dev/npm/package/dsh-search-tavily#1",
+        "https://www.npmjs.com/package/dsh-web-search-thirdparty#1",
+        "https://dshbase.com/zh/plugins/dsh-tavily-search/",
+        "https://www.npmjs.com/package/@yugasun/dsh-web-search#1",
+        "https://socket.dev/npm/package/dsh-search-router#1",
+        "https://www.dshplugin.store/plugin/zmh2000829/dsh-web-search-multi",
+        "https://dshbase.com/plugins/dsh-search-mcp/",
+        "https://dshbase.com/zh/plugins/dsh-tavily-search-provider/"
+      ],
+      "usageBody": {
+        "input_tokens": 384,
+        "output_tokens": 990,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 10368,
+        "server_tool_use": {
+          "web_search_requests": 1
+        }
+      }
+    },
+    {
+      "maxUses": 5,
+      "query": "dsh 插件市场 网页搜索 provider",
+      "run": 2,
+      "sessionUUID": "d5b0a1c2-7f31-4e88-9a04-6b2c1f0d3e57",
+      "httpStatus": 200,
+      "latencyMs": 5666,
+      "ok": true,
+      "attempts": 1,
+      "stopReason": "end_turn",
+      "resultCount": 10,
+      "rawItemCount": 10,
+      "contentNonEmptyCount": 0,
+      "contentChars": 0,
+      "citedTextCount": 0,
+      "citationsTotal": 0,
+      "textBlockCount": 1,
+      "thinkingBlockCount": 2,
+      "serverToolUseCount": 1,
+      "searchResultBlockCount": 1,
+      "malformedResultBlocks": 0,
+      "errorBlocks": [],
+      "usage": {
+        "input_tokens": 397,
+        "output_tokens": 843,
+        "cache_read_input_tokens": 13312,
+        "cache_creation_input_tokens": 0,
+        "server_tool_use": {
+          "web_search_requests": 1
+        },
+        "raw_keys": [
+          "input_tokens",
+          "output_tokens",
+          "cache_creation_input_tokens",
+          "cache_read_input_tokens",
+          "server_tool_use"
+        ]
+      },
+      "urls": [
+        "https://github.com/wakeup595626-cmyk/dsh-plugin-websearch-tavily",
+        "https://github.com/Soulize/dsh-free-search",
+        "https://socket.dev/npm/package/dsh-search-tavily#1",
+        "https://www.npmjs.com/package/dsh-web-search-thirdparty#1",
+        "https://dshbase.com/zh/plugins/dsh-tavily-search/",
+        "https://www.npmjs.com/package/@yugasun/dsh-web-search#1",
+        "https://socket.dev/npm/package/dsh-search-router#1",
+        "https://www.dshplugin.store/plugin/zmh2000829/dsh-web-search-multi",
+        "https://dshbase.com/plugins/dsh-search-mcp/",
+        "https://dshbase.com/zh/plugins/dsh-tavily-search-provider/"
+      ],
+      "usageBody": {
+        "input_tokens": 397,
+        "output_tokens": 843,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 13312,
+        "server_tool_use": {
+          "web_search_requests": 1
+        }
+      }
+    },
+    {
+      "maxUses": 1,
+      "query": "OpenCode Go 订阅 额度 限制",
+      "run": 1,
+      "sessionUUID": "d5b0a1c2-7f31-4e88-9a04-6b2c1f0d3e57",
+      "httpStatus": 200,
+      "latencyMs": 5452,
+      "ok": true,
+      "attempts": 1,
+      "stopReason": "end_turn",
+      "resultCount": 10,
+      "rawItemCount": 10,
+      "contentNonEmptyCount": 0,
+      "contentChars": 0,
+      "citedTextCount": 0,
+      "citationsTotal": 0,
+      "textBlockCount": 1,
+      "thinkingBlockCount": 2,
+      "serverToolUseCount": 1,
+      "searchResultBlockCount": 1,
+      "malformedResultBlocks": 0,
+      "errorBlocks": [],
+      "usage": {
+        "input_tokens": 4949,
+        "output_tokens": 860,
+        "cache_read_input_tokens": 384,
+        "cache_creation_input_tokens": 0,
+        "server_tool_use": {
+          "web_search_requests": 1
+        },
+        "raw_keys": [
+          "input_tokens",
+          "output_tokens",
+          "cache_creation_input_tokens",
+          "cache_read_input_tokens",
+          "server_tool_use"
+        ]
+      },
+      "urls": [
+        "https://opencode.ai/docs/zh-cn/go/",
+        "https://opencode.ai/docs/pt-br/go/#1",
+        "https://opencode.ai/go?ref=5N6DR0ENGW",
+        "https://www.opencode.asia/ko/go/#%ec%82%ac%ec%9a%a9-%ec%a0%9c%ed%95%9c",
+        "https://opencode.ai/th/go",
+        "https://opencode.ai/br/go",
+        "https://opencode.ai/zht/go",
+        "https://opencode.ai/fr/go",
+        "https://opencode.ai/ko/go",
+        "https://opencode.ai/pl/go"
+      ],
+      "usageBody": {
+        "input_tokens": 4949,
+        "output_tokens": 860,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 384,
+        "server_tool_use": {
+          "web_search_requests": 1
+        }
+      }
+    },
+    {
+      "maxUses": 1,
+      "query": "OpenCode Go 订阅 额度 限制",
+      "run": 2,
+      "sessionUUID": "d5b0a1c2-7f31-4e88-9a04-6b2c1f0d3e57",
+      "httpStatus": 200,
+      "latencyMs": 5110,
+      "ok": true,
+      "attempts": 1,
+      "stopReason": "end_turn",
+      "resultCount": 10,
+      "rawItemCount": 10,
+      "contentNonEmptyCount": 0,
+      "contentChars": 0,
+      "citedTextCount": 0,
+      "citationsTotal": 0,
+      "textBlockCount": 1,
+      "thinkingBlockCount": 2,
+      "serverToolUseCount": 1,
+      "searchResultBlockCount": 1,
+      "malformedResultBlocks": 0,
+      "errorBlocks": [],
+      "usage": {
+        "input_tokens": 4892,
+        "output_tokens": 784,
+        "cache_read_input_tokens": 384,
+        "cache_creation_input_tokens": 0,
+        "server_tool_use": {
+          "web_search_requests": 1
+        },
+        "raw_keys": [
+          "input_tokens",
+          "output_tokens",
+          "cache_creation_input_tokens",
+          "cache_read_input_tokens",
+          "server_tool_use"
+        ]
+      },
+      "urls": [
+        "https://opencode.ai/docs/zh-cn/go/",
+        "https://opencode.ai/docs/pt-br/go/#1",
+        "https://opencode.ai/go?ref=5N6DR0ENGW",
+        "https://www.opencode.asia/ko/go/#%ec%82%ac%ec%9a%a9-%ec%a0%9c%ed%95%9c",
+        "https://tech.ifeng.com/c/8wAEKapnS7x",
+        "https://opencode.ai/th/go",
+        "https://opencode.ai/br/go",
+        "https://opencode.ai/zht/go",
+        "https://opencode.ai/fr/go",
+        "https://opencode.ai/ko/go"
+      ],
+      "usageBody": {
+        "input_tokens": 4892,
+        "output_tokens": 784,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 384,
+        "server_tool_use": {
+          "web_search_requests": 1
+        }
+      }
+    },
+    {
+      "maxUses": 2,
+      "query": "OpenCode Go 订阅 额度 限制",
+      "run": 1,
+      "sessionUUID": "d5b0a1c2-7f31-4e88-9a04-6b2c1f0d3e57",
+      "httpStatus": 200,
+      "latencyMs": 5161,
+      "ok": true,
+      "attempts": 1,
+      "stopReason": "end_turn",
+      "resultCount": 10,
+      "rawItemCount": 10,
+      "contentNonEmptyCount": 0,
+      "contentChars": 0,
+      "citedTextCount": 0,
+      "citationsTotal": 0,
+      "textBlockCount": 1,
+      "thinkingBlockCount": 2,
+      "serverToolUseCount": 1,
+      "searchResultBlockCount": 1,
+      "malformedResultBlocks": 0,
+      "errorBlocks": [],
+      "usage": {
+        "input_tokens": 341,
+        "output_tokens": 753,
+        "cache_read_input_tokens": 4992,
+        "cache_creation_input_tokens": 0,
+        "server_tool_use": {
+          "web_search_requests": 1
+        },
+        "raw_keys": [
+          "input_tokens",
+          "output_tokens",
+          "cache_creation_input_tokens",
+          "cache_read_input_tokens",
+          "server_tool_use"
+        ]
+      },
+      "urls": [
+        "https://opencode.ai/docs/zh-cn/go/",
+        "https://opencode.ai/docs/pt-br/go/#1",
+        "https://opencode.ai/go?ref=5N6DR0ENGW",
+        "https://www.opencode.asia/ko/go/#%ec%82%ac%ec%9a%a9-%ec%a0%9c%ed%95%9c",
+        "https://opencode.ai/th/go",
+        "https://opencode.ai/br/go",
+        "https://opencode.ai/zht/go",
+        "https://opencode.ai/fr/go",
+        "https://opencode.ai/ko/go",
+        "https://opencode.ai/pl/go"
+      ],
+      "usageBody": {
+        "input_tokens": 341,
+        "output_tokens": 753,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 4992,
+        "server_tool_use": {
+          "web_search_requests": 1
+        }
+      }
+    },
+    {
+      "maxUses": 2,
+      "query": "OpenCode Go 订阅 额度 限制",
+      "run": 2,
+      "sessionUUID": "d5b0a1c2-7f31-4e88-9a04-6b2c1f0d3e57",
+      "httpStatus": 200,
+      "latencyMs": 5681,
+      "ok": true,
+      "attempts": 1,
+      "stopReason": "end_turn",
+      "resultCount": 10,
+      "rawItemCount": 10,
+      "contentNonEmptyCount": 0,
+      "contentChars": 0,
+      "citedTextCount": 0,
+      "citationsTotal": 0,
+      "textBlockCount": 2,
+      "thinkingBlockCount": 2,
+      "serverToolUseCount": 1,
+      "searchResultBlockCount": 1,
+      "malformedResultBlocks": 0,
+      "errorBlocks": [],
+      "usage": {
+        "input_tokens": 4957,
+        "output_tokens": 905,
+        "cache_read_input_tokens": 384,
+        "cache_creation_input_tokens": 0,
+        "server_tool_use": {
+          "web_search_requests": 1
+        },
+        "raw_keys": [
+          "input_tokens",
+          "output_tokens",
+          "cache_creation_input_tokens",
+          "cache_read_input_tokens",
+          "server_tool_use"
+        ]
+      },
+      "urls": [
+        "https://opencode.ai/docs/zh-cn/go/",
+        "https://opencode.ai/docs/pt-br/go/#1",
+        "https://opencode.ai/go?ref=5N6DR0ENGW",
+        "https://www.opencode.asia/ko/go/#%ec%82%ac%ec%9a%a9-%ec%a0%9c%ed%95%9c",
+        "https://opencode.ai/th/go",
+        "https://opencode.ai/br/go",
+        "https://opencode.ai/zht/go",
+        "https://opencode.ai/fr/go",
+        "https://opencode.ai/ko/go",
+        "https://opencode.ai/pl/go"
+      ],
+      "usageBody": {
+        "input_tokens": 4957,
+        "output_tokens": 905,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 384,
+        "server_tool_use": {
+          "web_search_requests": 1
+        }
+      }
+    },
+    {
+      "maxUses": 3,
+      "query": "OpenCode Go 订阅 额度 限制",
+      "run": 1,
+      "sessionUUID": "d5b0a1c2-7f31-4e88-9a04-6b2c1f0d3e57",
+      "httpStatus": 200,
+      "latencyMs": 4804,
+      "ok": true,
+      "attempts": 1,
+      "stopReason": "end_turn",
+      "resultCount": 10,
+      "rawItemCount": 10,
+      "contentNonEmptyCount": 0,
+      "contentChars": 0,
+      "citedTextCount": 0,
+      "citationsTotal": 0,
+      "textBlockCount": 1,
+      "thinkingBlockCount": 2,
+      "serverToolUseCount": 1,
+      "searchResultBlockCount": 1,
+      "malformedResultBlocks": 0,
+      "errorBlocks": [],
+      "usage": {
+        "input_tokens": 2590,
+        "output_tokens": 768,
+        "cache_read_input_tokens": 2688,
+        "cache_creation_input_tokens": 0,
+        "server_tool_use": {
+          "web_search_requests": 1
+        },
+        "raw_keys": [
+          "input_tokens",
+          "output_tokens",
+          "cache_creation_input_tokens",
+          "cache_read_input_tokens",
+          "server_tool_use"
+        ]
+      },
+      "urls": [
+        "https://opencode.ai/docs/zh-cn/go/",
+        "https://opencode.ai/docs/pt-br/go/#1",
+        "https://opencode.ai/go?ref=5N6DR0ENGW",
+        "https://www.opencode.asia/ko/go/#%ec%82%ac%ec%9a%a9-%ec%a0%9c%ed%95%9c",
+        "https://tech.ifeng.com/c/8wAEKapnS7x",
+        "https://opencode.ai/th/go",
+        "https://opencode.ai/br/go",
+        "https://opencode.ai/zht/go",
+        "https://opencode.ai/fr/go",
+        "https://opencode.ai/ko/go"
+      ],
+      "usageBody": {
+        "input_tokens": 2590,
+        "output_tokens": 768,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 2688,
+        "server_tool_use": {
+          "web_search_requests": 1
+        }
+      }
+    },
+    {
+      "maxUses": 3,
+      "query": "OpenCode Go 订阅 额度 限制",
+      "run": 2,
+      "sessionUUID": "d5b0a1c2-7f31-4e88-9a04-6b2c1f0d3e57",
+      "httpStatus": 200,
+      "latencyMs": 5792,
+      "ok": true,
+      "attempts": 1,
+      "stopReason": "end_turn",
+      "resultCount": 10,
+      "rawItemCount": 10,
+      "contentNonEmptyCount": 0,
+      "contentChars": 0,
+      "citedTextCount": 0,
+      "citationsTotal": 0,
+      "textBlockCount": 1,
+      "thinkingBlockCount": 2,
+      "serverToolUseCount": 1,
+      "searchResultBlockCount": 1,
+      "malformedResultBlocks": 0,
+      "errorBlocks": [],
+      "usage": {
+        "input_tokens": 341,
+        "output_tokens": 889,
+        "cache_read_input_tokens": 4992,
+        "cache_creation_input_tokens": 0,
+        "server_tool_use": {
+          "web_search_requests": 1
+        },
+        "raw_keys": [
+          "input_tokens",
+          "output_tokens",
+          "cache_creation_input_tokens",
+          "cache_read_input_tokens",
+          "server_tool_use"
+        ]
+      },
+      "urls": [
+        "https://opencode.ai/docs/zh-cn/go/",
+        "https://opencode.ai/docs/pt-br/go/#1",
+        "https://opencode.ai/go?ref=5N6DR0ENGW",
+        "https://www.opencode.asia/ko/go/#%ec%82%ac%ec%9a%a9-%ec%a0%9c%ed%95%9c",
+        "https://opencode.ai/th/go",
+        "https://opencode.ai/br/go",
+        "https://opencode.ai/zht/go",
+        "https://opencode.ai/fr/go",
+        "https://opencode.ai/ko/go",
+        "https://opencode.ai/pl/go"
+      ],
+      "usageBody": {
+        "input_tokens": 341,
+        "output_tokens": 889,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 4992,
+        "server_tool_use": {
+          "web_search_requests": 1
+        }
+      }
+    },
+    {
+      "maxUses": 5,
+      "query": "OpenCode Go 订阅 额度 限制",
+      "run": 1,
+      "sessionUUID": "d5b0a1c2-7f31-4e88-9a04-6b2c1f0d3e57",
+      "httpStatus": 200,
+      "latencyMs": 6197,
+      "ok": true,
+      "attempts": 1,
+      "stopReason": "end_turn",
+      "resultCount": 10,
+      "rawItemCount": 10,
+      "contentNonEmptyCount": 0,
+      "contentChars": 0,
+      "citedTextCount": 0,
+      "citationsTotal": 0,
+      "textBlockCount": 1,
+      "thinkingBlockCount": 2,
+      "serverToolUseCount": 1,
+      "searchResultBlockCount": 1,
+      "malformedResultBlocks": 0,
+      "errorBlocks": [],
+      "usage": {
+        "input_tokens": 414,
+        "output_tokens": 1088,
+        "cache_read_input_tokens": 4864,
+        "cache_creation_input_tokens": 0,
+        "server_tool_use": {
+          "web_search_requests": 1
+        },
+        "raw_keys": [
+          "input_tokens",
+          "output_tokens",
+          "cache_creation_input_tokens",
+          "cache_read_input_tokens",
+          "server_tool_use"
+        ]
+      },
+      "urls": [
+        "https://opencode.ai/docs/zh-cn/go/",
+        "https://opencode.ai/docs/pt-br/go/#1",
+        "https://opencode.ai/go?ref=5N6DR0ENGW",
+        "https://www.opencode.asia/ko/go/#%ec%82%ac%ec%9a%a9-%ec%a0%9c%ed%95%9c",
+        "https://tech.ifeng.com/c/8wAEKapnS7x",
+        "https://opencode.ai/th/go",
+        "https://opencode.ai/br/go",
+        "https://opencode.ai/zht/go",
+        "https://opencode.ai/fr/go",
+        "https://opencode.ai/ko/go"
+      ],
+      "usageBody": {
+        "input_tokens": 414,
+        "output_tokens": 1088,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 4864,
+        "server_tool_use": {
+          "web_search_requests": 1
+        }
+      }
+    },
+    {
+      "maxUses": 5,
+      "query": "OpenCode Go 订阅 额度 限制",
+      "run": 2,
+      "sessionUUID": "d5b0a1c2-7f31-4e88-9a04-6b2c1f0d3e57",
+      "httpStatus": 200,
+      "latencyMs": 7204,
+      "ok": true,
+      "attempts": 1,
+      "stopReason": "end_turn",
+      "resultCount": 10,
+      "rawItemCount": 10,
+      "contentNonEmptyCount": 0,
+      "contentChars": 0,
+      "citedTextCount": 0,
+      "citationsTotal": 0,
+      "textBlockCount": 1,
+      "thinkingBlockCount": 2,
+      "serverToolUseCount": 1,
+      "searchResultBlockCount": 1,
+      "malformedResultBlocks": 0,
+      "errorBlocks": [],
+      "usage": {
+        "input_tokens": 842,
+        "output_tokens": 1180,
+        "cache_read_input_tokens": 4608,
+        "cache_creation_input_tokens": 0,
+        "server_tool_use": {
+          "web_search_requests": 1
+        },
+        "raw_keys": [
+          "input_tokens",
+          "output_tokens",
+          "cache_creation_input_tokens",
+          "cache_read_input_tokens",
+          "server_tool_use"
+        ]
+      },
+      "urls": [
+        "https://opencode.ai/docs/zh-cn/go/",
+        "https://opencode.ai/docs/pt-br/go/#1",
+        "https://opencode.ai/go?ref=5N6DR0ENGW",
+        "https://www.opencode.asia/ko/go/#%ec%82%ac%ec%9a%a9-%ec%a0%9c%ed%95%9c",
+        "https://opencode.ai/th/go",
+        "https://opencode.ai/br/go",
+        "https://opencode.ai/zht/go",
+        "https://opencode.ai/fr/go",
+        "https://opencode.ai/ko/go",
+        "https://opencode.ai/pl/go"
+      ],
+      "usageBody": {
+        "input_tokens": 842,
+        "output_tokens": 1180,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 4608,
+        "server_tool_use": {
+          "web_search_requests": 1
+        }
+      }
+    }
+  ]
+}

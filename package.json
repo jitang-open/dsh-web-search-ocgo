@@ -1,0 +1,51 @@
+{
+  "name": "dsh-web-search-ocgo",
+  "version": "0.1.0",
+  "private": true,
+  "description": "自研 DSH 网页搜索 provider：走 OpenCode Go（自动注入 x-opencode-session），带官方端点失败回退、查询缓存、result.content 总结与日期规范化，并自带设置页。",
+  "keywords": [
+    "deepseek-harness",
+    "dsh",
+    "dsh-plugin",
+    "web-search",
+    "opencode-go",
+    "opencode-zen",
+    "x-opencode-session"
+  ],
+  "type": "module",
+  "license": "MIT",
+  "main": "index.js",
+  "exports": {
+    ".": "./index.js",
+    "./client": "./client.js",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "index.js",
+    "client.js",
+    "lib",
+    "cordis.patch.yml",
+    "README.md",
+    "NOTICE",
+    "LICENSE"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "inject": [
+        "@deepseek-ai/dsh-client-ui-settings",
+        "@deepseek-ai/dsh-client-ui-plugin-manager"
+      ]
+    }
+  },
+  "engines": {
+    "node": "^22.19.0 || >=24.0.0"
+  },
+  "scripts": {
+    "check": "node scripts/check.mjs",
+    "test": "node --test test/*.test.js"
+  }
+}

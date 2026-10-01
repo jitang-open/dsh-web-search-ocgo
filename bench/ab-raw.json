@@ -1,0 +1,1202 @@
+[
+  {
+    "query": "DeepSeek Harness 0.1.7 更新内容",
+    "config": "A",
+    "run": 1,
+    "official": {
+      "ms": 7921,
+      "sources": 10,
+      "snippetChars": 0,
+      "contentChars": 0,
+      "visibleChars": 0,
+      "totalPrompt": 8672,
+      "output": 1728,
+      "cacheRead": 5888,
+      "webSearchRequests": 1,
+      "urls": [
+        "https://github.com/deepseek-ai/deepseek-harness/releases/tag/dsh-v0.1.7-rc.1",
+        "https://github.com/cc1252/deepseek-harness-desktop/releases",
+        "https://news.qq.com/rain/a/20260924A0C1WT00",
+        "https://view.inews.qq.com/k/20260924A0C0EX00?scene=wap&no-redirect=1#1",
+        "https://m.toutiao.com/article/7688749343013077567/?wid=1790222972597&upstream_biz=toutiao_pc#1",
+        "https://hub-assets-cache.baai.ac.cn/view/58382",
+        "https://www.xianshe.com/article-189-1.html",
+        "https://www.ai345.info/ai-guide/deepseek-harness-v020",
+        "https://www.toutiao.com/article/7688480728983568911/?wid=1790298893248",
+        "https://weibo.com/2/detail/5347716751951745?utm_source=auto"
+      ]
+    },
+    "ocgo": {
+      "ms": 7921,
+      "sources": 10,
+      "snippetChars": 0,
+      "contentChars": 2001,
+      "visibleChars": 2001,
+      "totalPrompt": 8672,
+      "output": 1728,
+      "cacheRead": 5888,
+      "webSearchRequests": 1,
+      "urls": [
+        "https://github.com/deepseek-ai/deepseek-harness/releases/tag/dsh-v0.1.7-rc.1",
+        "https://github.com/cc1252/deepseek-harness-desktop/releases",
+        "https://news.qq.com/rain/a/20260924A0C1WT00",
+        "https://view.inews.qq.com/k/20260924A0C0EX00?scene=wap&no-redirect=1#1",
+        "https://m.toutiao.com/article/7688749343013077567/?wid=1790222972597&upstream_biz=toutiao_pc#1",
+        "https://hub-assets-cache.baai.ac.cn/view/58382",
+        "https://www.xianshe.com/article-189-1.html",
+        "https://www.ai345.info/ai-guide/deepseek-harness-v020",
+        "https://www.toutiao.com/article/7688480728983568911/?wid=1790298893248",
+        "https://weibo.com/2/detail/5347716751951745?utm_source=auto"
+      ]
+    }
+  },
+  {
+    "query": "DeepSeek Harness 0.1.7 更新内容",
+    "config": "A",
+    "run": 2,
+    "official": {
+      "ms": 6490,
+      "sources": 10,
+      "snippetChars": 0,
+      "contentChars": 0,
+      "visibleChars": 0,
+      "totalPrompt": 9871,
+      "output": 1326,
+      "cacheRead": 512,
+      "webSearchRequests": 1,
+      "urls": [
+        "https://github.com/deepseek-ai/deepseek-harness/releases/tag/dsh-v0.1.7-rc.1",
+        "https://news.qq.com/rain/a/20260924A0C1WT00",
+        "https://view.inews.qq.com/k/20260924A0C0EX00?scene=wap&no-redirect=1#1",
+        "https://m.toutiao.com/article/7688749343013077567/?wid=1790222972597&upstream_biz=toutiao_pc#1",
+        "https://hub-assets-cache.baai.ac.cn/view/58382",
+        "https://www.xianshe.com/article-189-1.html",
+        "https://www.ai345.info/ai-guide/deepseek-harness-v020",
+        "https://www.toutiao.com/article/7688480728983568911/?wid=1790298893248",
+        "https://weibo.com/2/detail/5347716751951745?utm_source=auto",
+        "https://jishuzhan.net/article/2104482984757571586"
+      ]
+    },
+    "ocgo": {
+      "ms": 6490,
+      "sources": 10,
+      "snippetChars": 0,
+      "contentChars": 2001,
+      "visibleChars": 2001,
+      "totalPrompt": 9871,
+      "output": 1326,
+      "cacheRead": 512,
+      "webSearchRequests": 1,
+      "urls": [
+        "https://github.com/deepseek-ai/deepseek-harness/releases/tag/dsh-v0.1.7-rc.1",
+        "https://news.qq.com/rain/a/20260924A0C1WT00",
+        "https://view.inews.qq.com/k/20260924A0C0EX00?scene=wap&no-redirect=1#1",
+        "https://m.toutiao.com/article/7688749343013077567/?wid=1790222972597&upstream_biz=toutiao_pc#1",
+        "https://hub-assets-cache.baai.ac.cn/view/58382",
+        "https://www.xianshe.com/article-189-1.html",
+        "https://www.ai345.info/ai-guide/deepseek-harness-v020",
+        "https://www.toutiao.com/article/7688480728983568911/?wid=1790298893248",
+        "https://weibo.com/2/detail/5347716751951745?utm_source=auto",
+        "https://jishuzhan.net/article/2104482984757571586"
+      ]
+    }
+  },
+  {
+    "query": "DeepSeek Harness 0.1.7 更新内容",
+    "config": "B",
+    "run": 1,
+    "official": {
+      "ms": 9128,
+      "sources": 10,
+      "snippetChars": 0,
+      "contentChars": 0,
+      "visibleChars": 0,
+      "totalPrompt": 14011,
+      "output": 1532,
+      "cacheRead": 256,
+      "webSearchRequests": 1,
+      "urls": [
+        "https://github.com/deepseek-ai/deepseek-harness/releases/tag/dsh-v0.1.7-rc.1",
+        "https://news.qq.com/rain/a/20260924A0C1WT00",
+        "https://jishuzhan.net/article/2104488910889693185",
+        "https://baijiahao.baidu.com/s?id=1877270502349563141",
+        "https://www.36kr.com/p/4005374745563268",
+        "https://view.inews.qq.com/k/20260924A0C0EX00?scene=wap&no-redirect=1#1",
+        "https://m.toutiao.com/article/7688749343013077567/?wid=1790222972597&upstream_biz=toutiao_pc#1",
+        "https://www.xianshe.com/article-189-1.html",
+        "https://www.ai345.info/ai-guide/deepseek-harness-v020",
+        "https://www.toutiao.com/article/7688480728983568911/?wid=1790298893248"
+      ]
+    },
+    "ocgo": {
+      "ms": 9128,
+      "sources": 10,
+      "snippetChars": 0,
+      "contentChars": 2001,
+      "visibleChars": 2001,
+      "totalPrompt": 14011,
+      "output": 1532,
+      "cacheRead": 256,
+      "webSearchRequests": 1,
+      "urls": [
+        "https://github.com/deepseek-ai/deepseek-harness/releases/tag/dsh-v0.1.7-rc.1",
+        "https://news.qq.com/rain/a/20260924A0C1WT00",
+        "https://jishuzhan.net/article/2104488910889693185",
+        "https://baijiahao.baidu.com/s?id=1877270502349563141",
+        "https://www.36kr.com/p/4005374745563268",
+        "https://view.inews.qq.com/k/20260924A0C0EX00?scene=wap&no-redirect=1#1",
+        "https://m.toutiao.com/article/7688749343013077567/?wid=1790222972597&upstream_biz=toutiao_pc#1",
+        "https://www.xianshe.com/article-189-1.html",
+        "https://www.ai345.info/ai-guide/deepseek-harness-v020",
+        "https://www.toutiao.com/article/7688480728983568911/?wid=1790298893248"
+      ]
+    }
+  },
+  {
+    "query": "DeepSeek Harness 0.1.7 更新内容",
+    "config": "B",
+    "run": 2,
+    "official": {
+      "ms": 11629,
+      "sources": 10,
+      "snippetChars": 0,
+      "contentChars": 0,
+      "visibleChars": 0,
+      "totalPrompt": 9655,
+      "output": 1519,
+      "cacheRead": 1536,
+      "webSearchRequests": 1,
+      "urls": [
+        "https://github.com/deepseek-ai/deepseek-harness/releases/tag/dsh-v0.1.7-rc.1",
+        "https://github.com/cc1252/deepseek-harness-desktop/releases",
+        "https://news.qq.com/rain/a/20260924A0C1WT00",
+        "https://jishuzhan.net/article/2104488910889693185",
+        "https://view.inews.qq.com/k/20260924A0C0EX00?scene=wap&no-redirect=1#1",
+        "https://m.toutiao.com/article/7688749343013077567/?wid=1790222972597&upstream_biz=toutiao_pc#1",
+        "https://blog.csdn.net/qq_36894974/article/details/166789901",
+        "https://www.xianshe.com/article-189-1.html",
+        "https://www.ai345.info/ai-guide/deepseek-harness-v020",
+        "https://hub-assets-cache.baai.ac.cn/view/58382"
+      ]
+    },
+    "ocgo": {
+      "ms": 11629,
+      "sources": 10,
+      "snippetChars": 0,
+      "contentChars": 2001,
+      "visibleChars": 2001,
+      "totalPrompt": 9655,
+      "output": 1519,
+      "cacheRead": 1536,
+      "webSearchRequests": 1,
+      "urls": [
+        "https://github.com/deepseek-ai/deepseek-harness/releases/tag/dsh-v0.1.7-rc.1",
+        "https://github.com/cc1252/deepseek-harness-desktop/releases",
+        "https://news.qq.com/rain/a/20260924A0C1WT00",
+        "https://jishuzhan.net/article/2104488910889693185",
+        "https://view.inews.qq.com/k/20260924A0C0EX00?scene=wap&no-redirect=1#1",
+        "https://m.toutiao.com/article/7688749343013077567/?wid=1790222972597&upstream_biz=toutiao_pc#1",
+        "https://blog.csdn.net/qq_36894974/article/details/166789901",
+        "https://www.xianshe.com/article-189-1.html",
+        "https://www.ai345.info/ai-guide/deepseek-harness-v020",
+        "https://hub-assets-cache.baai.ac.cn/view/58382"
+      ]
+    }
+  },
+  {
+    "query": "leeyoung1 dsh-web-search-opencode-go",
+    "config": "A",
+    "run": 1,
+    "official": {
+      "ms": 5130,
+      "sources": 7,
+      "snippetChars": 0,
+      "contentChars": 0,
+      "visibleChars": 0,
+      "totalPrompt": 5909,
+      "output": 937,
+      "cacheRead": 5504,
+      "webSearchRequests": 1,
+      "urls": [
+        "https://github.com/leeyoung1/dsh-web-search-opencode-go#1",
+        "https://dshbase.com/plugins/dsh-web-search-opencode/",
+        "https://dshbase.com/zh/plugins/dsh-web-search-opencode/",
+        "https://deepseekplugin.org/plugins/fanxing-0710-dsh-web-search-opencode",
+        "https://linux.do/t/topic/2752166/12",
+        "https://linux.do/t/topic/2755287/10",
+        "https://linux.do/t/topic/2756616/5"
+      ]
+    },
+    "ocgo": {
+      "ms": 5130,
+      "sources": 7,
+      "snippetChars": 0,
+      "contentChars": 2001,
+      "visibleChars": 2001,
+      "totalPrompt": 5909,
+      "output": 937,
+      "cacheRead": 5504,
+      "webSearchRequests": 1,
+      "urls": [
+        "https://github.com/leeyoung1/dsh-web-search-opencode-go#1",
+        "https://dshbase.com/plugins/dsh-web-search-opencode/",
+        "https://dshbase.com/zh/plugins/dsh-web-search-opencode/",
+        "https://deepseekplugin.org/plugins/fanxing-0710-dsh-web-search-opencode",
+        "https://linux.do/t/topic/2752166/12",
+        "https://linux.do/t/topic/2755287/10",
+        "https://linux.do/t/topic/2756616/5"
+      ]
+    }
+  },
+  {
+    "query": "leeyoung1 dsh-web-search-opencode-go",
+    "config": "A",
+    "run": 2,
+    "official": {
+      "ms": 5607,
+      "sources": 7,
+      "snippetChars": 0,
+      "contentChars": 0,
+      "visibleChars": 0,
+      "totalPrompt": 5909,
+      "output": 1133,
+      "cacheRead": 5504,
+      "webSearchRequests": 1,
+      "urls": [
+        "https://github.com/leeyoung1/dsh-web-search-opencode-go#1",
+        "https://dshbase.com/plugins/dsh-web-search-opencode/",
+        "https://dshbase.com/zh/plugins/dsh-web-search-opencode/",
+        "https://deepseekplugin.org/plugins/fanxing-0710-dsh-web-search-opencode",
+        "https://linux.do/t/topic/2752166/12",
+        "https://linux.do/t/topic/2755287/10",
+        "https://linux.do/t/topic/2756616/5"
+      ]
+    },
+    "ocgo": {
+      "ms": 5607,
+      "sources": 7,
+      "snippetChars": 0,
+      "contentChars": 2001,
+      "visibleChars": 2001,
+      "totalPrompt": 5909,
+      "output": 1133,
+      "cacheRead": 5504,
+      "webSearchRequests": 1,
+      "urls": [
+        "https://github.com/leeyoung1/dsh-web-search-opencode-go#1",
+        "https://dshbase.com/plugins/dsh-web-search-opencode/",
+        "https://dshbase.com/zh/plugins/dsh-web-search-opencode/",
+        "https://deepseekplugin.org/plugins/fanxing-0710-dsh-web-search-opencode",
+        "https://linux.do/t/topic/2752166/12",
+        "https://linux.do/t/topic/2755287/10",
+        "https://linux.do/t/topic/2756616/5"
+      ]
+    }
+  },
+  {
+    "query": "leeyoung1 dsh-web-search-opencode-go",
+    "config": "B",
+    "run": 1,
+    "official": {
+      "ms": 7089,
+      "sources": 7,
+      "snippetChars": 0,
+      "contentChars": 0,
+      "visibleChars": 0,
+      "totalPrompt": 6384,
+      "output": 1015,
+      "cacheRead": 384,
+      "webSearchRequests": 1,
+      "urls": [
+        "https://github.com/leeyoung1/dsh-web-search-opencode-go#1",
+        "https://dshbase.com/plugins/dsh-web-search-opencode/",
+        "https://dshbase.com/zh/plugins/dsh-web-search-opencode/",
+        "https://deepseekplugin.org/plugins/fanxing-0710-dsh-web-search-opencode",
+        "https://linux.do/t/topic/2752166/12",
+        "https://linux.do/t/topic/2755287/10",
+        "https://github.com/DDDMUC/dsh-free-search#1#2"
+      ]
+    },
+    "ocgo": {
+      "ms": 7089,
+      "sources": 7,
+      "snippetChars": 0,
+      "contentChars": 2001,
+      "visibleChars": 2001,
+      "totalPrompt": 6384,
+      "output": 1015,
+      "cacheRead": 384,
+      "webSearchRequests": 1,
+      "urls": [
+        "https://github.com/leeyoung1/dsh-web-search-opencode-go#1",
+        "https://dshbase.com/plugins/dsh-web-search-opencode/",
+        "https://dshbase.com/zh/plugins/dsh-web-search-opencode/",
+        "https://deepseekplugin.org/plugins/fanxing-0710-dsh-web-search-opencode",
+        "https://linux.do/t/topic/2752166/12",
+        "https://linux.do/t/topic/2755287/10",
+        "https://github.com/DDDMUC/dsh-free-search#1#2"
+      ]
+    }
+  },
+  {
+    "query": "leeyoung1 dsh-web-search-opencode-go",
+    "config": "B",
+    "run": 2,
+    "official": {
+      "ms": 6164,
+      "sources": 7,
+      "snippetChars": 0,
+      "contentChars": 0,
+      "visibleChars": 0,
+      "totalPrompt": 6384,
+      "output": 939,
+      "cacheRead": 6016,
+      "webSearchRequests": 1,
+      "urls": [
+        "https://github.com/leeyoung1/dsh-web-search-opencode-go#1",
+        "https://dshbase.com/plugins/dsh-web-search-opencode/",
+        "https://dshbase.com/zh/plugins/dsh-web-search-opencode/",
+        "https://deepseekplugin.org/plugins/fanxing-0710-dsh-web-search-opencode",
+        "https://linux.do/t/topic/2752166/12",
+        "https://linux.do/t/topic/2755287/10",
+        "https://github.com/DDDMUC/dsh-free-search#1#2"
+      ]
+    },
+    "ocgo": {
+      "ms": 6164,
+      "sources": 7,
+      "snippetChars": 0,
+      "contentChars": 2001,
+      "visibleChars": 2001,
+      "totalPrompt": 6384,
+      "output": 939,
+      "cacheRead": 6016,
+      "webSearchRequests": 1,
+      "urls": [
+        "https://github.com/leeyoung1/dsh-web-search-opencode-go#1",
+        "https://dshbase.com/plugins/dsh-web-search-opencode/",
+        "https://dshbase.com/zh/plugins/dsh-web-search-opencode/",
+        "https://deepseekplugin.org/plugins/fanxing-0710-dsh-web-search-opencode",
+        "https://linux.do/t/topic/2752166/12",
+        "https://linux.do/t/topic/2755287/10",
+        "https://github.com/DDDMUC/dsh-free-search#1#2"
+      ]
+    }
+  },
+  {
+    "query": "dsh 插件市场 网页搜索 provider",
+    "config": "A",
+    "run": 1,
+    "official": {
+      "ms": 4470,
+      "sources": 10,
+      "snippetChars": 0,
+      "contentChars": 0,
+      "visibleChars": 0,
+      "totalPrompt": 10825,
+      "output": 879,
+      "cacheRead": 10496,
+      "webSearchRequests": 1,
+      "urls": [
+        "https://github.com/SZMY-haruhi/dsh-tavily#1",
+        "https://github.com/deepseek-ai/deepseek-harness/discussions/779?sort=new#1",
+        "https://github.com/Soulize/dsh-free-search",
+        "https://socket.dev/npm/package/dsh-search-tavily#1",
+        "https://www.npmjs.com/package/dsh-web-search-thirdparty#1",
+        "https://dshbase.com/zh/plugins/dsh-tavily-search/",
+        "https://www.npmjs.com/package/@yugasun/dsh-web-search#1",
+        "https://socket.dev/npm/package/dsh-search-router#1",
+        "https://www.dshplugin.store/plugin/zmh2000829/dsh-web-search-multi",
+        "https://dshbase.com/zh/plugins/dsh-tavily-search-provider/"
+      ]
+    },
+    "ocgo": {
+      "ms": 4470,
+      "sources": 10,
+      "snippetChars": 0,
+      "contentChars": 1818,
+      "visibleChars": 1818,
+      "totalPrompt": 10825,
+      "output": 879,
+      "cacheRead": 10496,
+      "webSearchRequests": 1,
+      "urls": [
+        "https://github.com/SZMY-haruhi/dsh-tavily#1",
+        "https://github.com/deepseek-ai/deepseek-harness/discussions/779?sort=new#1",
+        "https://github.com/Soulize/dsh-free-search",
+        "https://socket.dev/npm/package/dsh-search-tavily#1",
+        "https://www.npmjs.com/package/dsh-web-search-thirdparty#1",
+        "https://dshbase.com/zh/plugins/dsh-tavily-search/",
+        "https://www.npmjs.com/package/@yugasun/dsh-web-search#1",
+        "https://socket.dev/npm/package/dsh-search-router#1",
+        "https://www.dshplugin.store/plugin/zmh2000829/dsh-web-search-multi",
+        "https://dshbase.com/zh/plugins/dsh-tavily-search-provider/"
+      ]
+    }
+  },
+  {
+    "query": "dsh 插件市场 网页搜索 provider",
+    "config": "A",
+    "run": 2,
+    "official": {
+      "ms": 5376,
+      "sources": 10,
+      "snippetChars": 0,
+      "contentChars": 0,
+      "visibleChars": 0,
+      "totalPrompt": 13575,
+      "output": 1019,
+      "cacheRead": 8448,
+      "webSearchRequests": 1,
+      "urls": [
+        "https://github.com/SZMY-haruhi/dsh-tavily#1",
+        "https://github.com/deepseek-ai/deepseek-harness/discussions/779?sort=new#1",
+        "https://github.com/Soulize/dsh-free-search",
+        "https://socket.dev/npm/package/dsh-search-tavily#1",
+        "https://www.npmjs.com/package/dsh-web-search-thirdparty#1",
+        "https://dshbase.com/zh/plugins/dsh-tavily-search/",
+        "https://www.npmjs.com/package/@yugasun/dsh-web-search#1",
+        "https://socket.dev/npm/package/dsh-search-router#1",
+        "https://www.dshplugin.store/plugin/zmh2000829/dsh-web-search-multi",
+        "https://dshbase.com/zh/plugins/dsh-tavily-search-provider/"
+      ]
+    },
+    "ocgo": {
+      "ms": 5376,
+      "sources": 10,
+      "snippetChars": 0,
+      "contentChars": 2001,
+      "visibleChars": 2001,
+      "totalPrompt": 13575,
+      "output": 1019,
+      "cacheRead": 8448,
+      "webSearchRequests": 1,
+      "urls": [
+        "https://github.com/SZMY-haruhi/dsh-tavily#1",
+        "https://github.com/deepseek-ai/deepseek-harness/discussions/779?sort=new#1",
+        "https://github.com/Soulize/dsh-free-search",
+        "https://socket.dev/npm/package/dsh-search-tavily#1",
+        "https://www.npmjs.com/package/dsh-web-search-thirdparty#1",
+        "https://dshbase.com/zh/plugins/dsh-tavily-search/",
+        "https://www.npmjs.com/package/@yugasun/dsh-web-search#1",
+        "https://socket.dev/npm/package/dsh-search-router#1",
+        "https://www.dshplugin.store/plugin/zmh2000829/dsh-web-search-multi",
+        "https://dshbase.com/zh/plugins/dsh-tavily-search-provider/"
+      ]
+    }
+  },
+  {
+    "query": "dsh 插件市场 网页搜索 provider",
+    "config": "B",
+    "run": 1,
+    "official": {
+      "ms": 7009,
+      "sources": 10,
+      "snippetChars": 0,
+      "contentChars": 0,
+      "visibleChars": 0,
+      "totalPrompt": 10069,
+      "output": 883,
+      "cacheRead": 384,
+      "webSearchRequests": 1,
+      "urls": [
+        "https://github.com/wakeup595626-cmyk/dsh-plugin-websearch-tavily",
+        "https://github.com/Soulize/dsh-free-search",
+        "https://socket.dev/npm/package/dsh-search-tavily#1",
+        "https://dshbase.com/zh/plugins/dsh-tavily-search/",
+        "https://www.npmjs.com/package/@yugasun/dsh-web-search#1",
+        "https://www.npmjs.com/package/devbits-web-search",
+        "https://socket.dev/npm/package/dsh-search-router#1",
+        "https://www.dshplugin.store/plugin/zmh2000829/dsh-web-search-multi",
+        "https://dshbase.com/plugins/dsh-search-mcp/",
+        "https://dshbase.com/zh/plugins/dsh-tavily-search-provider/"
+      ]
+    },
+    "ocgo": {
+      "ms": 7009,
+      "sources": 10,
+      "snippetChars": 0,
+      "contentChars": 2001,
+      "visibleChars": 2001,
+      "totalPrompt": 10069,
+      "output": 883,
+      "cacheRead": 384,
+      "webSearchRequests": 1,
+      "urls": [
+        "https://github.com/wakeup595626-cmyk/dsh-plugin-websearch-tavily",
+        "https://github.com/Soulize/dsh-free-search",
+        "https://socket.dev/npm/package/dsh-search-tavily#1",
+        "https://dshbase.com/zh/plugins/dsh-tavily-search/",
+        "https://www.npmjs.com/package/@yugasun/dsh-web-search#1",
+        "https://www.npmjs.com/package/devbits-web-search",
+        "https://socket.dev/npm/package/dsh-search-router#1",
+        "https://www.dshplugin.store/plugin/zmh2000829/dsh-web-search-multi",
+        "https://dshbase.com/plugins/dsh-search-mcp/",
+        "https://dshbase.com/zh/plugins/dsh-tavily-search-provider/"
+      ]
+    }
+  },
+  {
+    "query": "dsh 插件市场 网页搜索 provider",
+    "config": "B",
+    "run": 2,
+    "official": {
+      "ms": 6900,
+      "sources": 10,
+      "snippetChars": 0,
+      "contentChars": 0,
+      "visibleChars": 0,
+      "totalPrompt": 10074,
+      "output": 1013,
+      "cacheRead": 384,
+      "webSearchRequests": 1,
+      "urls": [
+        "https://github.com/wakeup595626-cmyk/dsh-plugin-websearch-tavily",
+        "https://github.com/Soulize/dsh-free-search",
+        "https://socket.dev/npm/package/dsh-search-tavily#1",
+        "https://dshbase.com/zh/plugins/dsh-tavily-search/",
+        "https://www.npmjs.com/package/@yugasun/dsh-web-search#1",
+        "https://www.npmjs.com/package/devbits-web-search",
+        "https://socket.dev/npm/package/dsh-search-router#1",
+        "https://www.dshplugin.store/plugin/zmh2000829/dsh-web-search-multi",
+        "https://dshbase.com/plugins/dsh-search-mcp/",
+        "https://dshbase.com/zh/plugins/dsh-tavily-search-provider/"
+      ]
+    },
+    "ocgo": {
+      "ms": 6900,
+      "sources": 10,
+      "snippetChars": 0,
+      "contentChars": 2001,
+      "visibleChars": 2001,
+      "totalPrompt": 10074,
+      "output": 1013,
+      "cacheRead": 384,
+      "webSearchRequests": 1,
+      "urls": [
+        "https://github.com/wakeup595626-cmyk/dsh-plugin-websearch-tavily",
+        "https://github.com/Soulize/dsh-free-search",
+        "https://socket.dev/npm/package/dsh-search-tavily#1",
+        "https://dshbase.com/zh/plugins/dsh-tavily-search/",
+        "https://www.npmjs.com/package/@yugasun/dsh-web-search#1",
+        "https://www.npmjs.com/package/devbits-web-search",
+        "https://socket.dev/npm/package/dsh-search-router#1",
+        "https://www.dshplugin.store/plugin/zmh2000829/dsh-web-search-multi",
+        "https://dshbase.com/plugins/dsh-search-mcp/",
+        "https://dshbase.com/zh/plugins/dsh-tavily-search-provider/"
+      ]
+    }
+  },
+  {
+    "query": "OpenCode Go 订阅 额度 限制",
+    "config": "A",
+    "run": 1,
+    "official": {
+      "ms": 8131,
+      "sources": 10,
+      "snippetChars": 0,
+      "contentChars": 0,
+      "visibleChars": 0,
+      "totalPrompt": 7736,
+      "output": 1537,
+      "cacheRead": 384,
+      "webSearchRequests": 1,
+      "urls": [
+        "https://opencode.ai/docs/pt-br/go/#1",
+        "https://opencode.ai/go?ref=5N6DR0ENGW",
+        "https://opencode.ai/docs/zh-cn/go/",
+        "https://www.opencode.asia/ko/go/#%ec%82%ac%ec%9a%a9-%ec%a0%9c%ed%95%9c",
+        "https://github.com/anomalyco/opencode/issues/15949",
+        "https://github.com/anomalyco/opencode/issues/42528",
+        "https://raw.githubusercontent.com/diegosouzapw/OmniRoute/main/open-sse/services/opencodeQuotaFetcher.ts#1",
+        "https://github.com/zed-industries/zed/pull/53651#1",
+        "https://pi.dev/packages/pi-ocgo-usage?sort=recent&page=81",
+        "https://global.v2ex.co/t/1232641#reply0#1#1#1"
+      ]
+    },
+    "ocgo": {
+      "ms": 8131,
+      "sources": 10,
+      "snippetChars": 0,
+      "contentChars": 1961,
+      "visibleChars": 1961,
+      "totalPrompt": 7736,
+      "output": 1537,
+      "cacheRead": 384,
+      "webSearchRequests": 1,
+      "urls": [
+        "https://opencode.ai/docs/pt-br/go/#1",
+        "https://opencode.ai/go?ref=5N6DR0ENGW",
+        "https://opencode.ai/docs/zh-cn/go/",
+        "https://www.opencode.asia/ko/go/#%ec%82%ac%ec%9a%a9-%ec%a0%9c%ed%95%9c",
+        "https://github.com/anomalyco/opencode/issues/15949",
+        "https://github.com/anomalyco/opencode/issues/42528",
+        "https://raw.githubusercontent.com/diegosouzapw/OmniRoute/main/open-sse/services/opencodeQuotaFetcher.ts#1",
+        "https://github.com/zed-industries/zed/pull/53651#1",
+        "https://pi.dev/packages/pi-ocgo-usage?sort=recent&page=81",
+        "https://global.v2ex.co/t/1232641#reply0#1#1#1"
+      ]
+    }
+  },
+  {
+    "query": "OpenCode Go 订阅 额度 限制",
+    "config": "A",
+    "run": 2,
+    "official": {
+      "ms": 4944,
+      "sources": 10,
+      "snippetChars": 0,
+      "contentChars": 0,
+      "visibleChars": 0,
+      "totalPrompt": 5573,
+      "output": 894,
+      "cacheRead": 384,
+      "webSearchRequests": 1,
+      "urls": [
+        "https://opencode.ai/docs/zh-cn/go/",
+        "https://opencode.ai/docs/pt-br/go/#1",
+        "https://opencode.ai/go?ref=5N6DR0ENGW",
+        "https://www.opencode.asia/ko/go/#%ec%82%ac%ec%9a%a9-%ec%a0%9c%ed%95%9c",
+        "https://github.com/anomalyco/opencode/issues/42528",
+        "https://github.com/xiaoqi20/dsh-opencode-go-usage#1",
+        "https://github.com/anomalyco/opencode/issues/15949",
+        "https://raw.githubusercontent.com/diegosouzapw/OmniRoute/main/open-sse/services/opencodeQuotaFetcher.ts#1",
+        "https://www.cocoloop.cn/t/topic/11876/18",
+        "https://meta.appinn.net/t/topic/92564"
+      ]
+    },
+    "ocgo": {
+      "ms": 4944,
+      "sources": 10,
+      "snippetChars": 0,
+      "contentChars": 1524,
+      "visibleChars": 1524,
+      "totalPrompt": 5573,
+      "output": 894,
+      "cacheRead": 384,
+      "webSearchRequests": 1,
+      "urls": [
+        "https://opencode.ai/docs/zh-cn/go/",
+        "https://opencode.ai/docs/pt-br/go/#1",
+        "https://opencode.ai/go?ref=5N6DR0ENGW",
+        "https://www.opencode.asia/ko/go/#%ec%82%ac%ec%9a%a9-%ec%a0%9c%ed%95%9c",
+        "https://github.com/anomalyco/opencode/issues/42528",
+        "https://github.com/xiaoqi20/dsh-opencode-go-usage#1",
+        "https://github.com/anomalyco/opencode/issues/15949",
+        "https://raw.githubusercontent.com/diegosouzapw/OmniRoute/main/open-sse/services/opencodeQuotaFetcher.ts#1",
+        "https://www.cocoloop.cn/t/topic/11876/18",
+        "https://meta.appinn.net/t/topic/92564"
+      ]
+    }
+  },
+  {
+    "query": "OpenCode Go 订阅 额度 限制",
+    "config": "B",
+    "run": 1,
+    "official": {
+      "ms": 9659,
+      "sources": 10,
+      "snippetChars": 0,
+      "contentChars": 0,
+      "visibleChars": 0,
+      "totalPrompt": 5338,
+      "output": 1157,
+      "cacheRead": 384,
+      "webSearchRequests": 1,
+      "urls": [
+        "https://opencode.ai/docs/zh-cn/go/",
+        "https://opencode.ai/docs/pt-br/go/#1",
+        "https://opencode.ai/go?ref=5N6DR0ENGW",
+        "https://www.opencode.asia/ko/go/#%ec%82%ac%ec%9a%a9-%ec%a0%9c%ed%95%9c",
+        "https://opencode.ai/th/go",
+        "https://opencode.ai/br/go",
+        "https://opencode.ai/zht/go",
+        "https://opencode.ai/fr/go",
+        "https://opencode.ai/ko/go",
+        "https://opencode.ai/pl/go"
+      ]
+    },
+    "ocgo": {
+      "ms": 9659,
+      "sources": 10,
+      "snippetChars": 0,
+      "contentChars": 2001,
+      "visibleChars": 2001,
+      "totalPrompt": 5338,
+      "output": 1157,
+      "cacheRead": 384,
+      "webSearchRequests": 1,
+      "urls": [
+        "https://opencode.ai/docs/zh-cn/go/",
+        "https://opencode.ai/docs/pt-br/go/#1",
+        "https://opencode.ai/go?ref=5N6DR0ENGW",
+        "https://www.opencode.asia/ko/go/#%ec%82%ac%ec%9a%a9-%ec%a0%9c%ed%95%9c",
+        "https://opencode.ai/th/go",
+        "https://opencode.ai/br/go",
+        "https://opencode.ai/zht/go",
+        "https://opencode.ai/fr/go",
+        "https://opencode.ai/ko/go",
+        "https://opencode.ai/pl/go"
+      ]
+    }
+  },
+  {
+    "query": "OpenCode Go 订阅 额度 限制",
+    "config": "B",
+    "run": 2,
+    "official": {
+      "ms": 7178,
+      "sources": 10,
+      "snippetChars": 0,
+      "contentChars": 0,
+      "visibleChars": 0,
+      "totalPrompt": 5333,
+      "output": 1060,
+      "cacheRead": 384,
+      "webSearchRequests": 1,
+      "urls": [
+        "https://opencode.ai/docs/zh-cn/go/",
+        "https://opencode.ai/docs/pt-br/go/#1",
+        "https://opencode.ai/go?ref=5N6DR0ENGW",
+        "https://www.opencode.asia/ko/go/#%ec%82%ac%ec%9a%a9-%ec%a0%9c%ed%95%9c",
+        "https://opencode.ai/th/go",
+        "https://opencode.ai/br/go",
+        "https://opencode.ai/zht/go",
+        "https://opencode.ai/fr/go",
+        "https://opencode.ai/ko/go",
+        "https://opencode.ai/pl/go"
+      ]
+    },
+    "ocgo": {
+      "ms": 7178,
+      "sources": 10,
+      "snippetChars": 0,
+      "contentChars": 1854,
+      "visibleChars": 1854,
+      "totalPrompt": 5333,
+      "output": 1060,
+      "cacheRead": 384,
+      "webSearchRequests": 1,
+      "urls": [
+        "https://opencode.ai/docs/zh-cn/go/",
+        "https://opencode.ai/docs/pt-br/go/#1",
+        "https://opencode.ai/go?ref=5N6DR0ENGW",
+        "https://www.opencode.asia/ko/go/#%ec%82%ac%ec%9a%a9-%ec%a0%9c%ed%95%9c",
+        "https://opencode.ai/th/go",
+        "https://opencode.ai/br/go",
+        "https://opencode.ai/zht/go",
+        "https://opencode.ai/fr/go",
+        "https://opencode.ai/ko/go",
+        "https://opencode.ai/pl/go"
+      ]
+    }
+  },
+  {
+    "query": "Python 3.14 新特性",
+    "config": "A",
+    "run": 1,
+    "official": {
+      "ms": 5892,
+      "sources": 10,
+      "snippetChars": 0,
+      "contentChars": 0,
+      "visibleChars": 0,
+      "totalPrompt": 8039,
+      "output": 1032,
+      "cacheRead": 384,
+      "webSearchRequests": 1,
+      "urls": [
+        "https://docs.python.org/ja/3.16/whatsnew/3.14.html#dis",
+        "https://www.python.org/downloads/release/python-3148/",
+        "https://docs.python.org/3.14/library/asyncio-threading.html",
+        "https://m.ithome.com/html/887921.htm",
+        "https://www.infoq.cn/article/efxy5ldeyr8drjjagllg#1",
+        "https://developer.aliyun.com/article/1685147#1",
+        "https://bbs.huaweicloud.com/blogs/465289#1",
+        "https://m.163.com/dy/article/KBHBIM070511FQO9.html?spss=adap_pc#1",
+        "https://simonwillison.net/2025/Oct/8/#1",
+        "https://realpython.com/python314-new-features/?utm_source=realpython&utm_medium=rss"
+      ]
+    },
+    "ocgo": {
+      "ms": 5892,
+      "sources": 10,
+      "snippetChars": 0,
+      "contentChars": 1913,
+      "visibleChars": 1913,
+      "totalPrompt": 8039,
+      "output": 1032,
+      "cacheRead": 384,
+      "webSearchRequests": 1,
+      "urls": [
+        "https://docs.python.org/ja/3.16/whatsnew/3.14.html#dis",
+        "https://www.python.org/downloads/release/python-3148/",
+        "https://docs.python.org/3.14/library/asyncio-threading.html",
+        "https://m.ithome.com/html/887921.htm",
+        "https://www.infoq.cn/article/efxy5ldeyr8drjjagllg#1",
+        "https://developer.aliyun.com/article/1685147#1",
+        "https://bbs.huaweicloud.com/blogs/465289#1",
+        "https://m.163.com/dy/article/KBHBIM070511FQO9.html?spss=adap_pc#1",
+        "https://simonwillison.net/2025/Oct/8/#1",
+        "https://realpython.com/python314-new-features/?utm_source=realpython&utm_medium=rss"
+      ]
+    }
+  },
+  {
+    "query": "Python 3.14 新特性",
+    "config": "A",
+    "run": 2,
+    "official": {
+      "ms": 6027,
+      "sources": 10,
+      "snippetChars": 0,
+      "contentChars": 0,
+      "visibleChars": 0,
+      "totalPrompt": 26449,
+      "output": 1066,
+      "cacheRead": 512,
+      "webSearchRequests": 1,
+      "urls": [
+        "https://docs.python.org/ja/3.16/whatsnew/3.14.html#dis",
+        "https://www.python.org/downloads/release/python-3148/",
+        "https://docs.python.org/3.14/library/asyncio-threading.html",
+        "https://m.ithome.com/html/887921.htm",
+        "https://www.infoq.cn/article/efxy5ldeyr8drjjagllg#1",
+        "https://developer.aliyun.com/article/1685147#1",
+        "https://bbs.huaweicloud.com/blogs/465289#1",
+        "https://m.163.com/dy/article/KBHBIM070511FQO9.html?spss=adap_pc#1",
+        "https://simonwillison.net/2025/Oct/8/#1",
+        "https://realpython.com/python314-new-features/?utm_source=realpython&utm_medium=rss"
+      ]
+    },
+    "ocgo": {
+      "ms": 6027,
+      "sources": 10,
+      "snippetChars": 0,
+      "contentChars": 1927,
+      "visibleChars": 1927,
+      "totalPrompt": 26449,
+      "output": 1066,
+      "cacheRead": 512,
+      "webSearchRequests": 1,
+      "urls": [
+        "https://docs.python.org/ja/3.16/whatsnew/3.14.html#dis",
+        "https://www.python.org/downloads/release/python-3148/",
+        "https://docs.python.org/3.14/library/asyncio-threading.html",
+        "https://m.ithome.com/html/887921.htm",
+        "https://www.infoq.cn/article/efxy5ldeyr8drjjagllg#1",
+        "https://developer.aliyun.com/article/1685147#1",
+        "https://bbs.huaweicloud.com/blogs/465289#1",
+        "https://m.163.com/dy/article/KBHBIM070511FQO9.html?spss=adap_pc#1",
+        "https://simonwillison.net/2025/Oct/8/#1",
+        "https://realpython.com/python314-new-features/?utm_source=realpython&utm_medium=rss"
+      ]
+    }
+  },
+  {
+    "query": "Python 3.14 新特性",
+    "config": "B",
+    "run": 1,
+    "official": {
+      "ms": 8652,
+      "sources": 10,
+      "snippetChars": 0,
+      "contentChars": 0,
+      "visibleChars": 0,
+      "totalPrompt": 7801,
+      "output": 1037,
+      "cacheRead": 384,
+      "webSearchRequests": 1,
+      "urls": [
+        "https://docs.python.org/ja/3.16/whatsnew/3.14.html#dis",
+        "https://www.python.org/downloads/release/python-3148/",
+        "https://docs.python.org/3.14/library/asyncio-threading.html",
+        "https://m.ithome.com/html/887921.htm",
+        "https://simonwillison.net/2025/Oct/8/#1",
+        "https://www.infoq.cn/article/efxy5ldeyr8drjjagllg#1",
+        "https://realpython.com/python314-new-features/?utm_source=realpython&utm_medium=rss",
+        "https://simonwillison.net/2025/Oct/8/python-314/#atom-everything#1",
+        "https://developer.aliyun.com/article/1685147#1",
+        "https://pycoders.com/issues/704"
+      ]
+    },
+    "ocgo": {
+      "ms": 8652,
+      "sources": 10,
+      "snippetChars": 0,
+      "contentChars": 1922,
+      "visibleChars": 1922,
+      "totalPrompt": 7801,
+      "output": 1037,
+      "cacheRead": 384,
+      "webSearchRequests": 1,
+      "urls": [
+        "https://docs.python.org/ja/3.16/whatsnew/3.14.html#dis",
+        "https://www.python.org/downloads/release/python-3148/",
+        "https://docs.python.org/3.14/library/asyncio-threading.html",
+        "https://m.ithome.com/html/887921.htm",
+        "https://simonwillison.net/2025/Oct/8/#1",
+        "https://www.infoq.cn/article/efxy5ldeyr8drjjagllg#1",
+        "https://realpython.com/python314-new-features/?utm_source=realpython&utm_medium=rss",
+        "https://simonwillison.net/2025/Oct/8/python-314/#atom-everything#1",
+        "https://developer.aliyun.com/article/1685147#1",
+        "https://pycoders.com/issues/704"
+      ]
+    }
+  },
+  {
+    "query": "Python 3.14 新特性",
+    "config": "B",
+    "run": 2,
+    "official": {
+      "ms": 7014,
+      "sources": 10,
+      "snippetChars": 0,
+      "contentChars": 0,
+      "visibleChars": 0,
+      "totalPrompt": 9498,
+      "output": 982,
+      "cacheRead": 4992,
+      "webSearchRequests": 1,
+      "urls": [
+        "https://docs.python.org/ja/3.16/whatsnew/3.14.html#dis",
+        "https://www.python.org/downloads/release/python-3148/",
+        "https://docs.python.org/3.14/library/asyncio-threading.html",
+        "https://m.ithome.com/html/887921.htm",
+        "https://simonwillison.net/2025/Oct/8/#1",
+        "https://www.infoq.cn/article/efxy5ldeyr8drjjagllg#1",
+        "https://realpython.com/python314-new-features/?utm_source=realpython&utm_medium=rss",
+        "https://simonwillison.net/2025/Oct/8/python-314/#atom-everything#1",
+        "https://developer.aliyun.com/article/1685147#1",
+        "https://pycoders.com/issues/704"
+      ]
+    },
+    "ocgo": {
+      "ms": 7014,
+      "sources": 10,
+      "snippetChars": 0,
+      "contentChars": 1780,
+      "visibleChars": 1780,
+      "totalPrompt": 9498,
+      "output": 982,
+      "cacheRead": 4992,
+      "webSearchRequests": 1,
+      "urls": [
+        "https://docs.python.org/ja/3.16/whatsnew/3.14.html#dis",
+        "https://www.python.org/downloads/release/python-3148/",
+        "https://docs.python.org/3.14/library/asyncio-threading.html",
+        "https://m.ithome.com/html/887921.htm",
+        "https://simonwillison.net/2025/Oct/8/#1",
+        "https://www.infoq.cn/article/efxy5ldeyr8drjjagllg#1",
+        "https://realpython.com/python314-new-features/?utm_source=realpython&utm_medium=rss",
+        "https://simonwillison.net/2025/Oct/8/python-314/#atom-everything#1",
+        "https://developer.aliyun.com/article/1685147#1",
+        "https://pycoders.com/issues/704"
+      ]
+    }
+  },
+  {
+    "query": "MCP 协议 最新版本",
+    "config": "A",
+    "run": 1,
+    "official": {
+      "ms": 4829,
+      "sources": 10,
+      "snippetChars": 0,
+      "contentChars": 0,
+      "visibleChars": 0,
+      "totalPrompt": 8543,
+      "output": 990,
+      "cacheRead": 384,
+      "webSearchRequests": 1,
+      "urls": [
+        "https://modelcontextprotocol.io/specification/2026-07-28/basic/versioning",
+        "https://claude.com/blog/bringing-mcp-2026-07-28-to-claude?AdId=main-programme-video&CampaignId=cdt-newvideos&SiteId=linkedin&trk=public_post-text&utm_campaign=cdt-newvideos#1",
+        "https://modelcontextprotocol.io/specification/2026-07-28/changelog",
+        "https://ts.sdk.modelcontextprotocol.io/v2/migration/support-2026-07-28.md",
+        "https://tech.ifeng.com/c/8v9j7keD4Xf?ch=ttsearch",
+        "https://modelcontextprotocol.com.cn/specification/2026-07-28/changelog",
+        "https://newreleases.io/project/github/modelcontextprotocol/go-sdk/release/v1.7.0#1",
+        "https://aaif.io/blog/mcp-2026-changes-the-rules",
+        "https://gigazine.net/gsc_news/en/20260729-model-context-protocol-2026-07-28#gsc.tab=0#1",
+        "https://newreleases.io/project/github/modelcontextprotocol/python-sdk/release/v2.0.0rc1#1"
+      ]
+    },
+    "ocgo": {
+      "ms": 4829,
+      "sources": 10,
+      "snippetChars": 0,
+      "contentChars": 1994,
+      "visibleChars": 1994,
+      "totalPrompt": 8543,
+      "output": 990,
+      "cacheRead": 384,
+      "webSearchRequests": 1,
+      "urls": [
+        "https://modelcontextprotocol.io/specification/2026-07-28/basic/versioning",
+        "https://claude.com/blog/bringing-mcp-2026-07-28-to-claude?AdId=main-programme-video&CampaignId=cdt-newvideos&SiteId=linkedin&trk=public_post-text&utm_campaign=cdt-newvideos#1",
+        "https://modelcontextprotocol.io/specification/2026-07-28/changelog",
+        "https://ts.sdk.modelcontextprotocol.io/v2/migration/support-2026-07-28.md",
+        "https://tech.ifeng.com/c/8v9j7keD4Xf?ch=ttsearch",
+        "https://modelcontextprotocol.com.cn/specification/2026-07-28/changelog",
+        "https://newreleases.io/project/github/modelcontextprotocol/go-sdk/release/v1.7.0#1",
+        "https://aaif.io/blog/mcp-2026-changes-the-rules",
+        "https://gigazine.net/gsc_news/en/20260729-model-context-protocol-2026-07-28#gsc.tab=0#1",
+        "https://newreleases.io/project/github/modelcontextprotocol/python-sdk/release/v2.0.0rc1#1"
+      ]
+    }
+  },
+  {
+    "query": "MCP 协议 最新版本",
+    "config": "A",
+    "run": 2,
+    "official": {
+      "ms": 5963,
+      "sources": 10,
+      "snippetChars": 0,
+      "contentChars": 0,
+      "visibleChars": 0,
+      "totalPrompt": 7243,
+      "output": 1118,
+      "cacheRead": 384,
+      "webSearchRequests": 1,
+      "urls": [
+        "https://modelcontextprotocol.io/specification/2026-07-28/basic/versioning",
+        "https://claude.com/blog/bringing-mcp-2026-07-28-to-claude?AdId=main-programme-video&CampaignId=cdt-newvideos&SiteId=linkedin&trk=public_post-text&utm_campaign=cdt-newvideos#1",
+        "https://modelcontextprotocol.io/specification/2026-07-28/changelog",
+        "https://ts.sdk.modelcontextprotocol.io/v2/migration/support-2026-07-28.md",
+        "https://tech.ifeng.com/c/8v9j7keD4Xf?ch=ttsearch",
+        "https://modelcontextprotocol.com.cn/specification/2026-07-28/changelog",
+        "https://newreleases.io/project/github/modelcontextprotocol/go-sdk/release/v1.7.0#1",
+        "https://aaif.io/blog/mcp-2026-changes-the-rules",
+        "https://gigazine.net/gsc_news/en/20260729-model-context-protocol-2026-07-28#gsc.tab=0#1",
+        "https://newreleases.io/project/github/modelcontextprotocol/python-sdk/release/v2.0.0rc1#1"
+      ]
+    },
+    "ocgo": {
+      "ms": 5963,
+      "sources": 10,
+      "snippetChars": 0,
+      "contentChars": 2001,
+      "visibleChars": 2001,
+      "totalPrompt": 7243,
+      "output": 1118,
+      "cacheRead": 384,
+      "webSearchRequests": 1,
+      "urls": [
+        "https://modelcontextprotocol.io/specification/2026-07-28/basic/versioning",
+        "https://claude.com/blog/bringing-mcp-2026-07-28-to-claude?AdId=main-programme-video&CampaignId=cdt-newvideos&SiteId=linkedin&trk=public_post-text&utm_campaign=cdt-newvideos#1",
+        "https://modelcontextprotocol.io/specification/2026-07-28/changelog",
+        "https://ts.sdk.modelcontextprotocol.io/v2/migration/support-2026-07-28.md",
+        "https://tech.ifeng.com/c/8v9j7keD4Xf?ch=ttsearch",
+        "https://modelcontextprotocol.com.cn/specification/2026-07-28/changelog",
+        "https://newreleases.io/project/github/modelcontextprotocol/go-sdk/release/v1.7.0#1",
+        "https://aaif.io/blog/mcp-2026-changes-the-rules",
+        "https://gigazine.net/gsc_news/en/20260729-model-context-protocol-2026-07-28#gsc.tab=0#1",
+        "https://newreleases.io/project/github/modelcontextprotocol/python-sdk/release/v2.0.0rc1#1"
+      ]
+    }
+  },
+  {
+    "query": "MCP 协议 最新版本",
+    "config": "B",
+    "run": 1,
+    "official": {
+      "ms": 6696,
+      "sources": 10,
+      "snippetChars": 0,
+      "contentChars": 0,
+      "visibleChars": 0,
+      "totalPrompt": 7801,
+      "output": 802,
+      "cacheRead": 384,
+      "webSearchRequests": 1,
+      "urls": [
+        "https://claude.com/blog/bringing-mcp-2026-07-28-to-claude?AdId=main-programme-video&CampaignId=cdt-newvideos&SiteId=linkedin&trk=public_post-text&utm_campaign=cdt-newvideos#1",
+        "https://modelcontextprotocol.io/specification/2026-07-28/changelog",
+        "https://ts.sdk.modelcontextprotocol.io/v2/migration/support-2026-07-28.md",
+        "https://tech.ifeng.com/c/8v9j7keD4Xf?ch=ttsearch",
+        "https://modelcontextprotocol.com.cn/specification/2026-07-28/changelog",
+        "https://newreleases.io/project/github/modelcontextprotocol/go-sdk/release/v1.7.0#1",
+        "https://aaif.io/blog/mcp-2026-changes-the-rules",
+        "https://gigazine.net/gsc_news/en/20260729-model-context-protocol-2026-07-28#gsc.tab=0#1",
+        "https://blog.modelcontextprotocol.io/posts/2026-07-28/",
+        "https://modelcontextprotocol.io/docs/draft/learn/versioning.md"
+      ]
+    },
+    "ocgo": {
+      "ms": 6696,
+      "sources": 10,
+      "snippetChars": 0,
+      "contentChars": 1442,
+      "visibleChars": 1442,
+      "totalPrompt": 7801,
+      "output": 802,
+      "cacheRead": 384,
+      "webSearchRequests": 1,
+      "urls": [
+        "https://claude.com/blog/bringing-mcp-2026-07-28-to-claude?AdId=main-programme-video&CampaignId=cdt-newvideos&SiteId=linkedin&trk=public_post-text&utm_campaign=cdt-newvideos#1",
+        "https://modelcontextprotocol.io/specification/2026-07-28/changelog",
+        "https://ts.sdk.modelcontextprotocol.io/v2/migration/support-2026-07-28.md",
+        "https://tech.ifeng.com/c/8v9j7keD4Xf?ch=ttsearch",
+        "https://modelcontextprotocol.com.cn/specification/2026-07-28/changelog",
+        "https://newreleases.io/project/github/modelcontextprotocol/go-sdk/release/v1.7.0#1",
+        "https://aaif.io/blog/mcp-2026-changes-the-rules",
+        "https://gigazine.net/gsc_news/en/20260729-model-context-protocol-2026-07-28#gsc.tab=0#1",
+        "https://blog.modelcontextprotocol.io/posts/2026-07-28/",
+        "https://modelcontextprotocol.io/docs/draft/learn/versioning.md"
+      ]
+    }
+  },
+  {
+    "query": "MCP 协议 最新版本",
+    "config": "B",
+    "run": 2,
+    "official": {
+      "ms": 7965,
+      "sources": 10,
+      "snippetChars": 0,
+      "contentChars": 0,
+      "visibleChars": 0,
+      "totalPrompt": 8134,
+      "output": 852,
+      "cacheRead": 384,
+      "webSearchRequests": 1,
+      "urls": [
+        "https://modelcontextprotocol.io/specification/2026-07-28/basic/versioning",
+        "https://claude.com/blog/bringing-mcp-2026-07-28-to-claude?AdId=main-programme-video&CampaignId=cdt-newvideos&SiteId=linkedin&trk=public_post-text&utm_campaign=cdt-newvideos#1",
+        "https://modelcontextprotocol.io/specification/2026-07-28/changelog",
+        "https://ts.sdk.modelcontextprotocol.io/v2/migration/support-2026-07-28.md",
+        "https://tech.ifeng.com/c/8v9j7keD4Xf?ch=ttsearch",
+        "https://modelcontextprotocol.com.cn/specification/2026-07-28/changelog",
+        "https://newreleases.io/project/github/modelcontextprotocol/go-sdk/release/v1.7.0#1",
+        "https://aaif.io/blog/mcp-2026-changes-the-rules",
+        "https://gigazine.net/gsc_news/en/20260729-model-context-protocol-2026-07-28#gsc.tab=0#1",
+        "https://blog.modelcontextprotocol.io/posts/2026-07-28/"
+      ]
+    },
+    "ocgo": {
+      "ms": 7965,
+      "sources": 10,
+      "snippetChars": 0,
+      "contentChars": 1641,
+      "visibleChars": 1641,
+      "totalPrompt": 8134,
+      "output": 852,
+      "cacheRead": 384,
+      "webSearchRequests": 1,
+      "urls": [
+        "https://modelcontextprotocol.io/specification/2026-07-28/basic/versioning",
+        "https://claude.com/blog/bringing-mcp-2026-07-28-to-claude?AdId=main-programme-video&CampaignId=cdt-newvideos&SiteId=linkedin&trk=public_post-text&utm_campaign=cdt-newvideos#1",
+        "https://modelcontextprotocol.io/specification/2026-07-28/changelog",
+        "https://ts.sdk.modelcontextprotocol.io/v2/migration/support-2026-07-28.md",
+        "https://tech.ifeng.com/c/8v9j7keD4Xf?ch=ttsearch",
+        "https://modelcontextprotocol.com.cn/specification/2026-07-28/changelog",
+        "https://newreleases.io/project/github/modelcontextprotocol/go-sdk/release/v1.7.0#1",
+        "https://aaif.io/blog/mcp-2026-changes-the-rules",
+        "https://gigazine.net/gsc_news/en/20260729-model-context-protocol-2026-07-28#gsc.tab=0#1",
+        "https://blog.modelcontextprotocol.io/posts/2026-07-28/"
+      ]
+    }
+  }
+]
