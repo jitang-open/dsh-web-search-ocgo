@@ -5,8 +5,8 @@
  * 默认只做只读检查，不发任何网络请求。加 `--probe` 才真发一次搜索（会花钱）。
  *
  * 用法：
- *   node bin/doctor.mjs
- *   node bin/doctor.mjs --probe
+ *   node bin/doctor.mjs                    # 自动挑一个装过本插件的 profile
+ *   node bin/doctor.mjs --probe            # 额外真发一次搜索（会花钱）
  *   node bin/doctor.mjs --profile web --json
  *
  * 退出码：0 无阻断项，1 有阻断项。
@@ -32,11 +32,41 @@ function argValue(name, fallback) {
   return index >= 0 && argv[index + 1] !== undefined ? argv[index + 1] : fallback
 }
 
-const PROFILE = argValue('--profile', 'web')
+const DSH_HOME = join(homedir(), '.dsh')
+
+/**
+ * 找出哪些 profile 声明了本插件。
+ *
+ * 一台机器上常有好几个 profile（web / desktop / dsh-tui…），插件通常只装在
+ * 其中一两个里。不指定 `--profile` 时自动挑一个 —— 否则对着一个已经弃用的空
+ * profile 检查，会平白报出「插件未安装」的阻断项。
+ *
+ * @returns 声明了本插件的 profile 名数组（字典序）。
+ */
+function detectProfiles() {
+  const root = join(DSH_HOME, 'profiles')
+  if (!existsSync(root)) return []
+  const found = []
+  for (const name of readdirSync(root)) {
+    const pkgPath = join(root, name, 'package.json')
+    if (!existsSync(pkgPath)) continue
+    try {
+      const pkg = JSON.parse(readFileSync(pkgPath, 'utf8'))
+      const bundles = pkg.dsh?.profile?.bundles ?? []
+      const deps = Object.keys(pkg.dependencies ?? {})
+      if (bundles.includes('dsh-web-search-ocgo') || deps.includes('dsh-web-search-ocgo')) found.push(name)
+    } catch {
+      // 读不动/解析不了的 profile 不是本次诊断的目标，跳过。
+    }
+  }
+  return found.sort()
+}
+
+const explicitProfile = argValue('--profile', undefined)
+const detectedProfiles = detectProfiles()
+const PROFILE = explicitProfile ?? detectedProfiles[0] ?? 'web'
 const PROBE = argv.includes('--probe')
 const AS_JSON = argv.includes('--json')
-
-const DSH_HOME = join(homedir(), '.dsh')
 const PROFILE_DIR = join(DSH_HOME, 'profiles', PROFILE)
 const CREDENTIALS = join(DSH_HOME, '.credentials.yaml')
 const PROFILE_PATCH = join(PROFILE_DIR, 'cordis.patch.yml')
@@ -348,11 +378,24 @@ if (PROBE) {
 }
 
 // ── 输出 ───────────────────────────────────────────────────────────────
+/** 探测到的 profile 说明，供报告尾部与 JSON 共用。 */
+const detectionNote =
+  detectedProfiles.length === 0
+    ? '（没有任何 profile 声明本插件）'
+    : `（装过本插件的 profile：${detectedProfiles.join(' / ')}${explicitProfile === undefined ? `，本次自动选中 ${PROFILE}` : ''}）`
+
 if (AS_JSON) {
-  console.log(JSON.stringify({ profile: PROFILE, probe: PROBE, checks }, null, 2))
+  console.log(
+    JSON.stringify(
+      { profile: PROFILE, probe: PROBE, detectedProfiles, profileExplicit: explicitProfile !== undefined, checks },
+      null,
+      2,
+    ),
+  )
 } else {
   const icon = { ok: '✔', warn: '⚠', fail: '✖', info: 'ℹ' }
-  console.log(`dsh-web-search-ocgo doctor  profile=${PROFILE}${PROBE ? '  (含真实探测)' : ''}\n`)
+  console.log(`dsh-web-search-ocgo doctor  profile=${PROFILE}${PROBE ? '  (含真实探测)' : ''}`)
+  console.log(`${detectionNote}\n`)
   for (const check of checks) {
     console.log(`${icon[check.level]} ${check.title}`)
     console.log(`    ${check.detail}`)
@@ -360,6 +403,9 @@ if (AS_JSON) {
   const fails = checks.filter((check) => check.level === 'fail').length
   const warns = checks.filter((check) => check.level === 'warn').length
   console.log(`\n合计 ${checks.length} 项：${fails} 阻断、${warns} 提醒。`)
+  if (explicitProfile === undefined && detectedProfiles.length > 1) {
+    console.log(`其余 profile 可用 --profile <name> 单独检查：${detectedProfiles.slice(1).join(' / ')}`)
+  }
 }
 
 process.exit(checks.some((check) => check.level === 'fail') ? 1 : 0)
