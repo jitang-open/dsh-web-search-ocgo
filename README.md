@@ -138,10 +138,35 @@ node bin/doctor.mjs                                        # 一键诊断
 
 ## 配置
 
-### 图形界面
+### 图形界面（Web profile）
 
 「设置 → 插件」→ 打开 `dsh-web-search-ocgo` → 配置页。
 改动在**失焦或回车**时立即保存，写入 profile 的 `cordis.patch.yml`。
+
+### 终端界面（dsh-tui profile）
+
+在 `dsh-tui` 里跑时，插件会额外注册一个 TUI 设置区块，出现在 `/settings` 里：
+
+```
+[web-search-ocgo] TUI 设置页已注册：ns=web-search-ocgo · 19 个字段 · 7 个分组
+```
+
+分组：端点与模型 / 凭据 / OpenCode Go 会话头 / 失败回退官方端点 / 查询缓存 / 结果质量 / 可靠性。
+
+**契约差异（重要）**：Web 半自己画 UI（注册 `plugins.bundle.config`，用 `ctx.configForms` 读写）；
+TUI 半**只声明「什么可编辑」** —— 渲染、暂存编辑与带 revision 栅栏的写入都由 TUI 自己做，
+存储与校验仍归 dsh 的 settings 服务。见 `lib/tui-settings.js`。
+
+**两个容易踩的点**（都实测过）：
+
+1. **`tuiSettingsSections` 服务晚于插件 `apply` 才挂载**。实测 `apply` 时
+   `ctx.get('tuiSettingsSections')` 是 `undefined`，约 1 秒后才出现 ——
+   同 profile 里的 `dsh-ssh-manager` 恰好赶上（它用 `tuiPanels`，时机更早），
+   而我们会错过。修法：先试一次，拿不到就 `ctx.inject(['tuiSettingsSections'], cb)` 等它出现。
+   （dsh-tui 源码里还提到某些组合会 dispose 掉这个服务行，见其 issue #183。）
+2. **不能直接读 `ctx.tuiSettingsSections` 属性**，会抛
+   `cannot get property "tuiSettingsSections" without inject` ——
+   本插件的静态 `inject` 只有 `'web'`，不能声明 TUI 专属服务。只能用 `ctx.get()`。
 
 ### YAML
 
@@ -241,13 +266,16 @@ node bench/maxuses-bench.mjs      # 复现 max_uses 曲线
 
 | 路径 | 说明 |
 |---|---|
-| `index.js` | host 半：Config schema + 装载自检 + 注册 provider |
-| `client.js` | 浏览器半：设置页（手写 `__ModuleLoader__` bundle，无构建步骤） |
+| `index.js` | host 半：Config schema + 装载自检 + 注册 provider + 挂 TUI 设置区块 |
+| `client.js` | 浏览器半：Web 设置页（手写 `__ModuleLoader__` bundle，无构建步骤） |
+| `lib/tui-settings.js` | TUI 设置区块描述（纯数据：19 字段 / 7 分组） |
 | `lib/provider.js` | provider 本体：请求、重试、回退、结果映射 |
 | `lib/cache.js` | 查询缓存（TTL + LRU） |
 | `lib/errors.js` | 与 `HarnessError` 同形状的错误 |
 | `lib/constants.js` | 协议常量与默认值 |
 | `cordis.patch.yml` | bundle 补丁层：改钉 `web.searchProvider`、插入本 entry |
+| `bin/doctor.mjs` | 一键诊断（含会话日志污染扫描） |
+| `bench/` | A/B 对比、`max_uses` 曲线、原始响应 dump |
 | `probe/` | 阶段 0 的一次性探针（可删） |
 
 ---

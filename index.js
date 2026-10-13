@@ -37,6 +37,7 @@ import {
   SEARCH_PROVIDER_ID,
 } from './lib/constants.js'
 import { createSearchProvider } from './lib/provider.js'
+import { createTuiSettingsSection } from './lib/tui-settings.js'
 
 /** Cordis 插件名，loader 诊断用。 */
 export const name = 'web-search-ocgo'
@@ -214,7 +215,72 @@ function selfCheck(ctx, options) {
 }
 
 /**
- * 注册搜索 provider。
+ * 把本插件的 Config 注册成一个 TUI 设置区块。
+ *
+ * @param ctx - 拿到了 `tuiSettingsSections` 的上下文。
+ * @returns 注册成功与否。
+ */
+function registerTuiSection(ctx) {
+  // 只用 ctx.get()：直接读 ctx.tuiSettingsSections 属性会抛
+  // 「cannot get property "tuiSettingsSections" without inject」——
+  // 本插件的静态 inject 只有 'web'，不能声明 TUI 专属服务。
+  const sections = ctx.get('tuiSettingsSections')
+  if (sections === undefined || sections === null) return false
+
+  let dispose
+  try {
+    dispose = sections.register(createTuiSettingsSection())
+  } catch (error) {
+    console.error(`[web-search-ocgo] TUI 设置页注册失败：${String(error?.message ?? error)}`)
+    return true
+  }
+  if (dispose === undefined || dispose === null) {
+    console.warn('[web-search-ocgo] TUI 设置页被拒绝（原因见上面的 warn）')
+    return true
+  }
+  const registered = typeof sections.section === 'function' ? sections.section('web-search-ocgo') : undefined
+  console.log(
+    `[web-search-ocgo] TUI 设置页已注册：ns=web-search-ocgo · ${registered?.fields?.length ?? 0} 个字段 · ${registered?.groups?.length ?? 0} 个分组`,
+  )
+  ctx.effect(() => dispose, 'web-search-ocgo: tui settings section')
+  return true
+}
+
+/**
+ * 在 TUI profile 里挂上「设置」页区块。
+ *
+ * dsh-tui 提供 `tuiSettingsSections` 服务；Web-only profile 没有它，
+ * 所以这里在 Web 下是 no-op，Web 半不受影响。
+ *
+ * 两个必须知道的细节：
+ *   1. 该服务**晚于本插件的 apply 才挂载** —— 实测 `apply` 时
+ *      `ctx.get('tuiSettingsSections')` 是 undefined，约 1 秒后才出现。
+ *      所以先试一次，拿不到就交给 `ctx.inject` 等它出现。
+ *   2. 本插件在 dsh-tui 的 `bundles` 里排在 dsh-ssh-manager 之后；
+ *      ssh-manager 的 `tuiPanels` 恰好已就绪，而我们已经错过。
+ *      （dsh-tui 源码还提到某些组合会 dispose 掉这个服务行，见 issue #183。）
+ *
+ * 与 Web 半的分工：Web 半自己画 UI；TUI 半只声明「什么可编辑」，
+ * 渲染、暂存编辑与带 revision 栅栏的写入都由 TUI 自己做。
+ *
+ * @param ctx - 插件上下文。
+ */
+function mountTuiSettings(ctx) {
+  if (registerTuiSection(ctx)) return
+  try {
+    ctx.inject(['tuiSettingsSections'], (scoped) => {
+      if (!registerTuiSection(scoped)) {
+        console.warn('[web-search-ocgo] tuiSettingsSections 出现了但取不到，TUI 设置页未注册')
+      }
+    })
+  } catch (error) {
+    // Web profile 下 inject 不会触发，这里只在真正异常时说话。
+    console.warn(`[web-search-ocgo] 等待 tuiSettingsSections 失败：${String(error?.message ?? error)}`)
+  }
+}
+
+/**
+ * 注册搜索 provider，并在 TUI profile 下附带设置页。
  *
  * @param ctx - 插件上下文。
  * @param config - 已解析的 Config。
@@ -232,6 +298,8 @@ export function apply(ctx, config) {
   })
 
   ctx.web.registerSearchProvider(createSearchProvider({ ctx, resolveOptions: resolve, cache }))
+
+  mountTuiSettings(ctx)
 }
 
 export { SEARCH_PROVIDER_ID }

@@ -1,8 +1,8 @@
 {
   "name": "dsh-web-search-ocgo",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "private": true,
-  "description": "自研 DSH 网页搜索 provider：走 OpenCode Go（自动注入 x-opencode-session），带官方端点失败回退、查询缓存、result.content 总结与日期规范化，并自带设置页。",
+  "description": "自研 DSH 网页搜索 provider：走 OpenCode Go（自动注入 x-opencode-session），带官方端点失败回退、查询缓存、result.content 总结与日期规范化；Web 与 TUI 两套设置页。",
   "keywords": [
     "deepseek-harness",
     "dsh",
